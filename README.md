@@ -3,7 +3,7 @@ FPGAs using VHDL
 
 Main resources:
 
-Digital Systems course (2022-2)
+Digital Systems university course (2022-2)
 
 https://nandland.com/
 
