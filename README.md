@@ -1,7 +1,9 @@
 # FPGAs
-FPGAs in VHDL, System Verilog and Digital Design
+FPGAs using VHDL
 
-Main resources: 
+Main resources:
+
+Digital Systems course (2022-2)
 
 https://nandland.com/
 
