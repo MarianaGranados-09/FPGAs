@@ -1,0 +1,6791 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 3010
+ VARIABLES
+ {
+  #ARCHITECTURE="Decodificador"
+  #BLOCKTABLE_FILE="#table.bde"
+  #BLOCKTABLE_INCLUDED="1"
+  #ENTITY="Decodificador"
+  #LANGUAGE="VHDL"
+  AUTHOR="mauvarcarr@outlook.com"
+  COMPANY="HP Inc."
+  CREATIONDATE="30/08/2022"
+  PAGECOUNT="2"
+  TITLE="No Title"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (4400,7400)
+  MARGINS (200,200,200,200)
+  RECT (0,0,100,200)
+ }
+ 
+ BODY
+ {
+  INSTANCE  18, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="A"
+    #SYMBOL="Input"
+   }
+   COORD (360,60)
+   VERTEXES ( (2,2492) )
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (288,43,309,78)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  INSTANCE  23, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="B"
+    #SYMBOL="Input"
+   }
+   COORD (360,100)
+   VERTEXES ( (2,2494) )
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (288,83,309,118)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 23
+  }
+  INSTANCE  28, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="C"
+    #SYMBOL="Input"
+   }
+   COORD (360,140)
+   VERTEXES ( (2,2496) )
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (286,123,309,158)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  INSTANCE  33, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="D"
+    #SYMBOL="Input"
+   }
+   COORD (360,180)
+   VERTEXES ( (2,2498) )
+  }
+  TEXT  34, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (286,163,309,198)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 33
+  }
+  INSTANCE  75, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U1"
+    #SYMBOL="and4"
+   }
+   COORD (760,220)
+   VERTEXES ( (10,2500), (8,2501), (6,2506), (2,2508), (4,2544) )
+  }
+  INSTANCE  76, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U2"
+    #SYMBOL="inv"
+   }
+   COORD (600,260)
+   VERTEXES ( (2,2503), (4,2502) )
+  }
+  INSTANCE  77, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U3"
+    #SYMBOL="inv"
+   }
+   COORD (600,300)
+   VERTEXES ( (2,2504), (4,2507) )
+  }
+  INSTANCE  78, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U4"
+    #SYMBOL="inv"
+   }
+   COORD (600,340)
+   VERTEXES ( (2,2505), (4,2509) )
+  }
+  NET WIRE  90, 0, 0
+  NET WIRE  116, 0, 0
+  NET WIRE  124, 0, 0
+  INSTANCE  126, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U5"
+    #SYMBOL="and4"
+   }
+   COORD (760,400)
+   VERTEXES ( (10,2514), (8,2510), (6,2520), (2,2512), (4,2546) )
+  }
+  INSTANCE  130, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U6"
+    #SYMBOL="inv"
+   }
+   COORD (600,440)
+   VERTEXES ( (2,2518), (4,2511) )
+  }
+  INSTANCE  132, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U7"
+    #SYMBOL="inv"
+   }
+   COORD (600,400)
+   VERTEXES ( (2,2516), (4,2515) )
+  }
+  INSTANCE  134, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U8"
+    #SYMBOL="inv"
+   }
+   COORD (600,520)
+   VERTEXES ( (2,2522), (4,2513) )
+  }
+  NET WIRE  138, 0, 0
+  NET WIRE  142, 0, 0
+  NET WIRE  156, 0, 0
+  INSTANCE  185, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U9"
+    #SYMBOL="and4"
+   }
+   COORD (760,580)
+   VERTEXES ( (10,2526), (8,2528), (6,2524), (2,2532), (4,2548) )
+  }
+  INSTANCE  191, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U11"
+    #SYMBOL="inv"
+   }
+   COORD (600,660)
+   VERTEXES ( (2,2530), (4,2525) )
+  }
+  NET WIRE  199, 0, 0
+  INSTANCE  237, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U10"
+    #SYMBOL="and4"
+   }
+   COORD (760,760)
+   VERTEXES ( (10,2536), (8,2534), (6,2540), (2,2542), (4,2550) )
+  }
+  INSTANCE  241, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U12"
+    #SYMBOL="inv"
+   }
+   COORD (600,800)
+   VERTEXES ( (2,2538), (4,2535) )
+  }
+  NET WIRE  249, 0, 0
+  INSTANCE  289, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U13"
+    #SYMBOL="or4"
+   }
+   COORD (980,480)
+   VERTEXES ( (10,2545), (8,2547), (6,2549), (2,2551), (4,2609) )
+  }
+  NET WIRE  298, 0, 0
+  NET WIRE  307, 0, 0
+  NET WIRE  316, 0, 0
+  NET WIRE  332, 0, 0
+  INSTANCE  333, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U14"
+    #SYMBOL="and4"
+   }
+   COORD (760,980)
+   VERTEXES ( (10,2570), (8,2552), (6,2574), (2,2554), (4,2562) )
+  }
+  INSTANCE  338, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U15"
+    #SYMBOL="inv"
+   }
+   COORD (600,1020)
+   VERTEXES ( (2,2572), (4,2553) )
+  }
+  INSTANCE  342, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U17"
+    #SYMBOL="inv"
+   }
+   COORD (600,1100)
+   VERTEXES ( (2,2576), (4,2555) )
+  }
+  NET WIRE  346, 0, 0
+  NET WIRE  350, 0, 0
+  INSTANCE  351, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U18"
+    #SYMBOL="and4"
+   }
+   COORD (760,1160)
+   VERTEXES ( (10,2558), (8,2580), (6,2582), (2,2556), (4,2564) )
+  }
+  INSTANCE  358, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U20"
+    #SYMBOL="inv"
+   }
+   COORD (600,1160)
+   VERTEXES ( (2,2578), (4,2559) )
+  }
+  INSTANCE  360, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U21"
+    #SYMBOL="inv"
+   }
+   COORD (600,1280)
+   VERTEXES ( (2,2584), (4,2557) )
+  }
+  NET WIRE  364, 0, 0
+  NET WIRE  367, 0, 0
+  INSTANCE  368, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U22"
+    #SYMBOL="and4"
+   }
+   COORD (760,1340)
+   VERTEXES ( (10,2586), (8,2588), (6,2560), (2,2592), (4,2566) )
+  }
+  INSTANCE  371, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U23"
+    #SYMBOL="inv"
+   }
+   COORD (600,1420)
+   VERTEXES ( (2,2590), (4,2561) )
+  }
+  NET WIRE  373, 0, 0
+  INSTANCE  375, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U24"
+    #SYMBOL="and4"
+   }
+   COORD (760,1520)
+   VERTEXES ( (10,2594), (8,2598), (6,2600), (2,2602), (4,2568) )
+  }
+  INSTANCE  382, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U26"
+    #SYMBOL="or4"
+   }
+   COORD (980,1240)
+   VERTEXES ( (10,2563), (8,2565), (6,2567), (2,2569), (4,2905) )
+  }
+  NET WIRE  388, 0, 0
+  NET WIRE  394, 0, 0
+  NET WIRE  399, 0, 0
+  NET WIRE  406, 0, 0
+  INSTANCE  552, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U16"
+    #SYMBOL="inv"
+   }
+   COORD (600,1520)
+   VERTEXES ( (2,2596), (4,2595) )
+  }
+  NET WIRE  557, 0, 0
+  INSTANCE  585, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U19"
+    #SYMBOL="and4"
+   }
+   COORD (760,2060)
+   VERTEXES ( (10,2810), (8,2809), (6,2808), (2,2805), (4,2950) )
+  }
+  VTX  587, 0, 0
+  {
+   COORD (560,2080)
+  }
+  VTX  594, 0, 0
+  {
+   COORD (520,2120)
+  }
+  VTX  601, 0, 0
+  {
+   COORD (480,2160)
+  }
+  VTX  608, 0, 0
+  {
+   COORD (440,2200)
+  }
+  INSTANCE  614, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U25"
+    #SYMBOL="or2"
+   }
+   COORD (1360,1460)
+   VERTEXES ( (6,2906), (4,2902), (2,2934) )
+  }
+  NET WIRE  623, 0, 0
+  NET WIRE  632, 0, 0
+  INSTANCE  633, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U27"
+    #SYMBOL="and4"
+   }
+   COORD (760,2280)
+   VERTEXES ( (2,749), (4,757), (6,795), (10,800), (8,812) )
+  }
+  INSTANCE  639, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U29"
+    #SYMBOL="inv"
+   }
+   COORD (600,2400)
+   VERTEXES ( (4,750), (2,825) )
+  }
+  NET WIRE  643, 0, 0
+  INSTANCE  645, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U30"
+    #SYMBOL="and4"
+   }
+   COORD (760,2460)
+   VERTEXES ( (10,753), (4,759), (8,833), (6,852), (2,859) )
+  }
+  INSTANCE  649, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U31"
+    #SYMBOL="inv"
+   }
+   COORD (600,2460)
+   VERTEXES ( (4,754), (2,838) )
+  }
+  NET WIRE  655, 0, 0
+  INSTANCE  657, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U33"
+    #SYMBOL="and4"
+   }
+   COORD (760,2640)
+   VERTEXES ( (4,761), (10,866), (8,878), (6,885), (2,891) )
+  }
+  INSTANCE  664, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U35"
+    #SYMBOL="and4"
+   }
+   COORD (760,2820)
+   VERTEXES ( (4,763), (10,898), (8,904), (6,911), (2,918) )
+  }
+  INSTANCE  667, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U36"
+    #SYMBOL="or4"
+   }
+   COORD (980,2540)
+   VERTEXES ( (10,758), (8,760), (6,762), (2,764), (4,2395) )
+  }
+  NET WIRE  672, 0, 0
+  NET WIRE  676, 0, 0
+  NET WIRE  680, 0, 0
+  NET WIRE  684, 0, 0
+  VTX  749, 0, 0
+  {
+   COORD (760,2420)
+  }
+  VTX  750, 0, 0
+  {
+   COORD (720,2420)
+  }
+  VTX  753, 0, 0
+  {
+   COORD (760,2480)
+  }
+  VTX  754, 0, 0
+  {
+   COORD (720,2480)
+  }
+  VTX  757, 0, 0
+  {
+   COORD (920,2360)
+  }
+  VTX  758, 0, 0
+  {
+   COORD (980,2560)
+  }
+  VTX  759, 0, 0
+  {
+   COORD (920,2540)
+  }
+  VTX  760, 0, 0
+  {
+   COORD (980,2600)
+  }
+  VTX  761, 0, 0
+  {
+   COORD (920,2720)
+  }
+  VTX  762, 0, 0
+  {
+   COORD (980,2640)
+  }
+  VTX  763, 0, 0
+  {
+   COORD (920,2900)
+  }
+  VTX  764, 0, 0
+  {
+   COORD (980,2680)
+  }
+  WIRE  768, 0, 0
+  {
+   NET 643
+   VTX 749, 750
+  }
+  WIRE  770, 0, 0
+  {
+   NET 655
+   VTX 753, 754
+  }
+  VTX  772, 0, 0
+  {
+   COORD (960,2360)
+  }
+  WIRE  773, 0, 0
+  {
+   NET 672
+   VTX 757, 772
+  }
+  VTX  774, 0, 0
+  {
+   COORD (960,2560)
+  }
+  WIRE  775, 0, 0
+  {
+   NET 672
+   VTX 772, 774
+  }
+  WIRE  776, 0, 0
+  {
+   NET 672
+   VTX 774, 758
+  }
+  VTX  777, 0, 0
+  {
+   COORD (940,2540)
+  }
+  WIRE  778, 0, 0
+  {
+   NET 676
+   VTX 759, 777
+  }
+  VTX  779, 0, 0
+  {
+   COORD (940,2600)
+  }
+  WIRE  780, 0, 0
+  {
+   NET 676
+   VTX 777, 779
+  }
+  WIRE  781, 0, 0
+  {
+   NET 676
+   VTX 779, 760
+  }
+  VTX  782, 0, 0
+  {
+   COORD (940,2720)
+  }
+  WIRE  783, 0, 0
+  {
+   NET 680
+   VTX 761, 782
+  }
+  VTX  784, 0, 0
+  {
+   COORD (940,2640)
+  }
+  WIRE  785, 0, 0
+  {
+   NET 680
+   VTX 782, 784
+  }
+  WIRE  786, 0, 0
+  {
+   NET 680
+   VTX 784, 762
+  }
+  VTX  787, 0, 0
+  {
+   COORD (960,2900)
+  }
+  WIRE  788, 0, 0
+  {
+   NET 684
+   VTX 763, 787
+  }
+  VTX  789, 0, 0
+  {
+   COORD (960,2680)
+  }
+  WIRE  790, 0, 0
+  {
+   NET 684
+   VTX 787, 789
+  }
+  WIRE  791, 0, 0
+  {
+   NET 684
+   VTX 789, 764
+  }
+  INSTANCE  793, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U38"
+    #SYMBOL="inv"
+   }
+   COORD (600,2360)
+   VERTEXES ( (4,796), (2,818) )
+  }
+  INSTANCE  794, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U39"
+    #SYMBOL="inv"
+   }
+   COORD (600,2280)
+   VERTEXES ( (4,801), (2,805) )
+  }
+  VTX  795, 0, 0
+  {
+   COORD (760,2380)
+  }
+  VTX  796, 0, 0
+  {
+   COORD (720,2380)
+  }
+  WIRE  798, 0, 0
+  {
+   NET 799
+   VTX 795, 796
+  }
+  NET WIRE  799, 0, 0
+  VTX  800, 0, 0
+  {
+   COORD (760,2300)
+  }
+  VTX  801, 0, 0
+  {
+   COORD (720,2300)
+  }
+  WIRE  803, 0, 0
+  {
+   NET 804
+   VTX 800, 801
+  }
+  NET WIRE  804, 0, 0
+  VTX  805, 0, 0
+  {
+   COORD (600,2300)
+  }
+  VTX  806, 0, 0
+  {
+   COORD (560,2300)
+  }
+  WIRE  808, 0, 0
+  {
+   NET 2850
+   VTX 805, 806
+  }
+  WIRE  809, 0, 0
+  {
+   NET 2850
+   VTX 587, 806
+  }
+  VTX  812, 0, 0
+  {
+   COORD (760,2340)
+  }
+  VTX  813, 0, 0
+  {
+   COORD (520,2340)
+  }
+  WIRE  814, 0, 0
+  {
+   NET 2857
+   VTX 812, 813
+  }
+  WIRE  815, 0, 0
+  {
+   NET 2857
+   VTX 594, 813
+  }
+  VTX  818, 0, 0
+  {
+   COORD (600,2380)
+  }
+  VTX  819, 0, 0
+  {
+   COORD (480,2380)
+  }
+  WIRE  821, 0, 0
+  {
+   NET 2864
+   VTX 818, 819
+  }
+  WIRE  822, 0, 0
+  {
+   NET 2864
+   VTX 601, 819
+  }
+  VTX  825, 0, 0
+  {
+   COORD (600,2420)
+  }
+  VTX  826, 0, 0
+  {
+   COORD (440,2420)
+  }
+  WIRE  828, 0, 0
+  {
+   NET 2871
+   VTX 825, 826
+  }
+  WIRE  829, 0, 0
+  {
+   NET 2871
+   VTX 608, 826
+  }
+  INSTANCE  832, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U28"
+    #SYMBOL="inv"
+   }
+   COORD (600,2500)
+   VERTEXES ( (4,834), (2,845) )
+  }
+  VTX  833, 0, 0
+  {
+   COORD (760,2520)
+  }
+  VTX  834, 0, 0
+  {
+   COORD (720,2520)
+  }
+  WIRE  836, 0, 0
+  {
+   NET 837
+   VTX 833, 834
+  }
+  NET WIRE  837, 0, 0
+  VTX  838, 0, 0
+  {
+   COORD (600,2480)
+  }
+  VTX  839, 0, 0
+  {
+   COORD (560,2480)
+  }
+  WIRE  841, 0, 0
+  {
+   NET 2850
+   VTX 838, 839
+  }
+  WIRE  842, 0, 0
+  {
+   NET 2850
+   VTX 806, 839
+  }
+  VTX  845, 0, 0
+  {
+   COORD (600,2520)
+  }
+  VTX  846, 0, 0
+  {
+   COORD (520,2520)
+  }
+  WIRE  848, 0, 0
+  {
+   NET 2857
+   VTX 845, 846
+  }
+  WIRE  849, 0, 0
+  {
+   NET 2857
+   VTX 813, 846
+  }
+  VTX  852, 0, 0
+  {
+   COORD (760,2560)
+  }
+  VTX  853, 0, 0
+  {
+   COORD (480,2560)
+  }
+  WIRE  855, 0, 0
+  {
+   NET 2864
+   VTX 852, 853
+  }
+  WIRE  856, 0, 0
+  {
+   NET 2864
+   VTX 819, 853
+  }
+  VTX  859, 0, 0
+  {
+   COORD (760,2600)
+  }
+  VTX  860, 0, 0
+  {
+   COORD (440,2600)
+  }
+  WIRE  861, 0, 0
+  {
+   NET 2871
+   VTX 859, 860
+  }
+  WIRE  862, 0, 0
+  {
+   NET 2871
+   VTX 826, 860
+  }
+  INSTANCE  865, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U32"
+    #SYMBOL="inv"
+   }
+   COORD (600,2640)
+   VERTEXES ( (4,867), (2,871) )
+  }
+  VTX  866, 0, 0
+  {
+   COORD (760,2660)
+  }
+  VTX  867, 0, 0
+  {
+   COORD (720,2660)
+  }
+  WIRE  869, 0, 0
+  {
+   NET 870
+   VTX 866, 867
+  }
+  NET WIRE  870, 0, 0
+  VTX  871, 0, 0
+  {
+   COORD (600,2660)
+  }
+  VTX  872, 0, 0
+  {
+   COORD (560,2660)
+  }
+  WIRE  874, 0, 0
+  {
+   NET 2850
+   VTX 871, 872
+  }
+  WIRE  875, 0, 0
+  {
+   NET 2850
+   VTX 839, 872
+  }
+  VTX  878, 0, 0
+  {
+   COORD (760,2700)
+  }
+  VTX  879, 0, 0
+  {
+   COORD (520,2700)
+  }
+  WIRE  881, 0, 0
+  {
+   NET 2857
+   VTX 878, 879
+  }
+  WIRE  882, 0, 0
+  {
+   NET 2857
+   VTX 846, 879
+  }
+  VTX  885, 0, 0
+  {
+   COORD (760,2740)
+  }
+  VTX  886, 0, 0
+  {
+   COORD (480,2740)
+  }
+  WIRE  887, 0, 0
+  {
+   NET 2864
+   VTX 885, 886
+  }
+  WIRE  888, 0, 0
+  {
+   NET 2864
+   VTX 853, 886
+  }
+  VTX  891, 0, 0
+  {
+   COORD (760,2780)
+  }
+  VTX  892, 0, 0
+  {
+   COORD (440,2780)
+  }
+  WIRE  894, 0, 0
+  {
+   NET 2871
+   VTX 891, 892
+  }
+  WIRE  895, 0, 0
+  {
+   NET 2871
+   VTX 860, 892
+  }
+  VTX  898, 0, 0
+  {
+   COORD (760,2840)
+  }
+  VTX  899, 0, 0
+  {
+   COORD (560,2840)
+  }
+  WIRE  900, 0, 0
+  {
+   NET 2850
+   VTX 898, 899
+  }
+  WIRE  901, 0, 0
+  {
+   NET 2850
+   VTX 872, 899
+  }
+  VTX  904, 0, 0
+  {
+   COORD (760,2880)
+  }
+  VTX  905, 0, 0
+  {
+   COORD (520,2880)
+  }
+  WIRE  907, 0, 0
+  {
+   NET 2857
+   VTX 904, 905
+  }
+  WIRE  908, 0, 0
+  {
+   NET 2857
+   VTX 879, 905
+  }
+  VTX  911, 0, 0
+  {
+   COORD (760,2920)
+  }
+  VTX  912, 0, 0
+  {
+   COORD (480,2920)
+  }
+  WIRE  914, 0, 0
+  {
+   NET 2864
+   VTX 911, 912
+  }
+  WIRE  915, 0, 0
+  {
+   NET 2864
+   VTX 886, 912
+  }
+  VTX  918, 0, 0
+  {
+   COORD (760,2960)
+  }
+  VTX  919, 0, 0
+  {
+   COORD (440,2960)
+  }
+  WIRE  921, 0, 0
+  {
+   NET 2871
+   VTX 918, 919
+  }
+  WIRE  922, 0, 0
+  {
+   NET 2871
+   VTX 892, 919
+  }
+  INSTANCE  935, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U34"
+    #SYMBOL="and4"
+   }
+   COORD (760,3040)
+   VERTEXES ( (6,1015), (2,1003), (4,1007), (10,1050), (8,1063) )
+  }
+  INSTANCE  940, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U37"
+    #SYMBOL="inv"
+   }
+   COORD (600,3160)
+   VERTEXES ( (4,1004), (2,1075) )
+  }
+  NET WIRE  942, 0, 0
+  INSTANCE  944, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U40"
+    #SYMBOL="and4"
+   }
+   COORD (760,3220)
+   VERTEXES ( (10,1005), (8,1019), (4,1009), (6,1083), (2,1104) )
+  }
+  INSTANCE  948, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U41"
+    #SYMBOL="inv"
+   }
+   COORD (600,3220)
+   VERTEXES ( (4,1006), (2,1090) )
+  }
+  NET WIRE  950, 0, 0
+  INSTANCE  952, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U42"
+    #SYMBOL="and4"
+   }
+   COORD (760,3400)
+   VERTEXES ( (4,1011), (10,1117), (8,1123), (6,1130), (2,1137) )
+  }
+  INSTANCE  955, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U43"
+    #SYMBOL="and4"
+   }
+   COORD (760,3580)
+   VERTEXES ( (4,1013), (6,1151), (8,1156), (10,1161), (2,1182) )
+  }
+  INSTANCE  957, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U44"
+    #SYMBOL="or4"
+   }
+   COORD (980,3300)
+   VERTEXES ( (10,1008), (8,1010), (6,1012), (2,1014), (4,1310) )
+  }
+  NET WIRE  962, 0, 0
+  NET WIRE  966, 0, 0
+  NET WIRE  970, 0, 0
+  NET WIRE  974, 0, 0
+  INSTANCE  987, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U45"
+    #SYMBOL="inv"
+   }
+   COORD (600,3120)
+   VERTEXES ( (4,1016), (2,1068) )
+  }
+  NET WIRE  992, 0, 0
+  INSTANCE  995, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U47"
+    #SYMBOL="inv"
+   }
+   COORD (600,3260)
+   VERTEXES ( (4,1020), (2,1097) )
+  }
+  NET WIRE  998, 0, 0
+  VTX  1003, 0, 0
+  {
+   COORD (760,3180)
+  }
+  VTX  1004, 0, 0
+  {
+   COORD (720,3180)
+  }
+  VTX  1005, 0, 0
+  {
+   COORD (760,3240)
+  }
+  VTX  1006, 0, 0
+  {
+   COORD (720,3240)
+  }
+  VTX  1007, 0, 0
+  {
+   COORD (920,3120)
+  }
+  VTX  1008, 0, 0
+  {
+   COORD (980,3320)
+  }
+  VTX  1009, 0, 0
+  {
+   COORD (920,3300)
+  }
+  VTX  1010, 0, 0
+  {
+   COORD (980,3360)
+  }
+  VTX  1011, 0, 0
+  {
+   COORD (920,3480)
+  }
+  VTX  1012, 0, 0
+  {
+   COORD (980,3400)
+  }
+  VTX  1013, 0, 0
+  {
+   COORD (920,3660)
+  }
+  VTX  1014, 0, 0
+  {
+   COORD (980,3440)
+  }
+  VTX  1015, 0, 0
+  {
+   COORD (760,3140)
+  }
+  VTX  1016, 0, 0
+  {
+   COORD (720,3140)
+  }
+  VTX  1019, 0, 0
+  {
+   COORD (760,3280)
+  }
+  VTX  1020, 0, 0
+  {
+   COORD (720,3280)
+  }
+  WIRE  1023, 0, 0
+  {
+   NET 942
+   VTX 1003, 1004
+  }
+  WIRE  1024, 0, 0
+  {
+   NET 950
+   VTX 1005, 1006
+  }
+  VTX  1025, 0, 0
+  {
+   COORD (960,3120)
+  }
+  WIRE  1026, 0, 0
+  {
+   NET 962
+   VTX 1007, 1025
+  }
+  VTX  1027, 0, 0
+  {
+   COORD (960,3320)
+  }
+  WIRE  1028, 0, 0
+  {
+   NET 962
+   VTX 1025, 1027
+  }
+  WIRE  1029, 0, 0
+  {
+   NET 962
+   VTX 1027, 1008
+  }
+  VTX  1030, 0, 0
+  {
+   COORD (940,3300)
+  }
+  WIRE  1031, 0, 0
+  {
+   NET 966
+   VTX 1009, 1030
+  }
+  VTX  1032, 0, 0
+  {
+   COORD (940,3360)
+  }
+  WIRE  1033, 0, 0
+  {
+   NET 966
+   VTX 1030, 1032
+  }
+  WIRE  1034, 0, 0
+  {
+   NET 966
+   VTX 1032, 1010
+  }
+  VTX  1035, 0, 0
+  {
+   COORD (940,3480)
+  }
+  WIRE  1036, 0, 0
+  {
+   NET 970
+   VTX 1011, 1035
+  }
+  VTX  1037, 0, 0
+  {
+   COORD (940,3400)
+  }
+  WIRE  1038, 0, 0
+  {
+   NET 970
+   VTX 1035, 1037
+  }
+  WIRE  1039, 0, 0
+  {
+   NET 970
+   VTX 1037, 1012
+  }
+  VTX  1040, 0, 0
+  {
+   COORD (960,3660)
+  }
+  WIRE  1041, 0, 0
+  {
+   NET 974
+   VTX 1013, 1040
+  }
+  VTX  1042, 0, 0
+  {
+   COORD (960,3440)
+  }
+  WIRE  1043, 0, 0
+  {
+   NET 974
+   VTX 1040, 1042
+  }
+  WIRE  1044, 0, 0
+  {
+   NET 974
+   VTX 1042, 1014
+  }
+  WIRE  1045, 0, 0
+  {
+   NET 992
+   VTX 1015, 1016
+  }
+  WIRE  1047, 0, 0
+  {
+   NET 998
+   VTX 1019, 1020
+  }
+  INSTANCE  1049, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U49"
+    #SYMBOL="inv"
+   }
+   COORD (600,3080)
+   VERTEXES ( (2,1056), (4,1064) )
+  }
+  VTX  1050, 0, 0
+  {
+   COORD (760,3060)
+  }
+  VTX  1051, 0, 0
+  {
+   COORD (560,3060)
+  }
+  WIRE  1052, 0, 0
+  {
+   NET 2850
+   VTX 1050, 1051
+  }
+  WIRE  1053, 0, 0
+  {
+   NET 2850
+   VTX 899, 1051
+  }
+  VTX  1056, 0, 0
+  {
+   COORD (600,3100)
+  }
+  VTX  1057, 0, 0
+  {
+   COORD (520,3100)
+  }
+  WIRE  1059, 0, 0
+  {
+   NET 2857
+   VTX 1056, 1057
+  }
+  WIRE  1060, 0, 0
+  {
+   NET 2857
+   VTX 905, 1057
+  }
+  VTX  1063, 0, 0
+  {
+   COORD (760,3100)
+  }
+  VTX  1064, 0, 0
+  {
+   COORD (720,3100)
+  }
+  WIRE  1066, 0, 0
+  {
+   NET 1067
+   VTX 1063, 1064
+  }
+  NET WIRE  1067, 0, 0
+  VTX  1068, 0, 0
+  {
+   COORD (600,3140)
+  }
+  VTX  1069, 0, 0
+  {
+   COORD (480,3140)
+  }
+  WIRE  1071, 0, 0
+  {
+   NET 2864
+   VTX 1068, 1069
+  }
+  WIRE  1072, 0, 0
+  {
+   NET 2864
+   VTX 912, 1069
+  }
+  VTX  1075, 0, 0
+  {
+   COORD (600,3180)
+  }
+  VTX  1076, 0, 0
+  {
+   COORD (440,3180)
+  }
+  WIRE  1078, 0, 0
+  {
+   NET 2871
+   VTX 1075, 1076
+  }
+  WIRE  1079, 0, 0
+  {
+   NET 2871
+   VTX 919, 1076
+  }
+  INSTANCE  1082, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U46"
+    #SYMBOL="inv"
+   }
+   COORD (600,3340)
+   VERTEXES ( (4,1105), (2,1109) )
+  }
+  VTX  1083, 0, 0
+  {
+   COORD (760,3320)
+  }
+  VTX  1084, 0, 0
+  {
+   COORD (480,3320)
+  }
+  WIRE  1086, 0, 0
+  {
+   NET 2864
+   VTX 1083, 1084
+  }
+  WIRE  1087, 0, 0
+  {
+   NET 2864
+   VTX 1069, 1084
+  }
+  VTX  1090, 0, 0
+  {
+   COORD (600,3240)
+  }
+  VTX  1091, 0, 0
+  {
+   COORD (560,3240)
+  }
+  WIRE  1093, 0, 0
+  {
+   NET 2850
+   VTX 1090, 1091
+  }
+  WIRE  1094, 0, 0
+  {
+   NET 2850
+   VTX 1051, 1091
+  }
+  VTX  1097, 0, 0
+  {
+   COORD (600,3280)
+  }
+  VTX  1098, 0, 0
+  {
+   COORD (520,3280)
+  }
+  WIRE  1100, 0, 0
+  {
+   NET 2857
+   VTX 1097, 1098
+  }
+  WIRE  1101, 0, 0
+  {
+   NET 2857
+   VTX 1057, 1098
+  }
+  VTX  1104, 0, 0
+  {
+   COORD (760,3360)
+  }
+  VTX  1105, 0, 0
+  {
+   COORD (720,3360)
+  }
+  WIRE  1107, 0, 0
+  {
+   NET 1108
+   VTX 1104, 1105
+  }
+  NET WIRE  1108, 0, 0
+  VTX  1109, 0, 0
+  {
+   COORD (600,3360)
+  }
+  VTX  1110, 0, 0
+  {
+   COORD (440,3360)
+  }
+  WIRE  1112, 0, 0
+  {
+   NET 2871
+   VTX 1109, 1110
+  }
+  WIRE  1113, 0, 0
+  {
+   NET 2871
+   VTX 1076, 1110
+  }
+  INSTANCE  1116, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U50"
+    #SYMBOL="inv"
+   }
+   COORD (600,3520)
+   VERTEXES ( (4,1138), (2,1142) )
+  }
+  VTX  1117, 0, 0
+  {
+   COORD (760,3420)
+  }
+  VTX  1118, 0, 0
+  {
+   COORD (560,3420)
+  }
+  WIRE  1119, 0, 0
+  {
+   NET 2850
+   VTX 1117, 1118
+  }
+  WIRE  1120, 0, 0
+  {
+   NET 2850
+   VTX 1091, 1118
+  }
+  VTX  1123, 0, 0
+  {
+   COORD (760,3460)
+  }
+  VTX  1124, 0, 0
+  {
+   COORD (520,3460)
+  }
+  WIRE  1126, 0, 0
+  {
+   NET 2857
+   VTX 1123, 1124
+  }
+  WIRE  1127, 0, 0
+  {
+   NET 2857
+   VTX 1098, 1124
+  }
+  VTX  1130, 0, 0
+  {
+   COORD (760,3500)
+  }
+  VTX  1131, 0, 0
+  {
+   COORD (480,3500)
+  }
+  WIRE  1133, 0, 0
+  {
+   NET 2864
+   VTX 1130, 1131
+  }
+  WIRE  1134, 0, 0
+  {
+   NET 2864
+   VTX 1084, 1131
+  }
+  VTX  1137, 0, 0
+  {
+   COORD (760,3540)
+  }
+  VTX  1138, 0, 0
+  {
+   COORD (720,3540)
+  }
+  WIRE  1140, 0, 0
+  {
+   NET 1141
+   VTX 1137, 1138
+  }
+  NET WIRE  1141, 0, 0
+  VTX  1142, 0, 0
+  {
+   COORD (600,3540)
+  }
+  VTX  1143, 0, 0
+  {
+   COORD (440,3540)
+  }
+  WIRE  1145, 0, 0
+  {
+   NET 2871
+   VTX 1142, 1143
+  }
+  WIRE  1146, 0, 0
+  {
+   NET 2871
+   VTX 1110, 1143
+  }
+  INSTANCE  1149, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U48"
+    #SYMBOL="inv"
+   }
+   COORD (600,3620)
+   VERTEXES ( (4,1157), (2,1168) )
+  }
+  INSTANCE  1150, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U51"
+    #SYMBOL="inv"
+   }
+   COORD (600,3660)
+   VERTEXES ( (4,1152), (2,1175) )
+  }
+  VTX  1151, 0, 0
+  {
+   COORD (760,3680)
+  }
+  VTX  1152, 0, 0
+  {
+   COORD (720,3680)
+  }
+  WIRE  1154, 0, 0
+  {
+   NET 1155
+   VTX 1151, 1152
+  }
+  NET WIRE  1155, 0, 0
+  VTX  1156, 0, 0
+  {
+   COORD (760,3640)
+  }
+  VTX  1157, 0, 0
+  {
+   COORD (720,3640)
+  }
+  WIRE  1159, 0, 0
+  {
+   NET 1160
+   VTX 1156, 1157
+  }
+  NET WIRE  1160, 0, 0
+  VTX  1161, 0, 0
+  {
+   COORD (760,3600)
+  }
+  VTX  1162, 0, 0
+  {
+   COORD (560,3600)
+  }
+  WIRE  1164, 0, 0
+  {
+   NET 2850
+   VTX 1161, 1162
+  }
+  WIRE  1165, 0, 0
+  {
+   NET 2850
+   VTX 1118, 1162
+  }
+  VTX  1168, 0, 0
+  {
+   COORD (600,3640)
+  }
+  VTX  1169, 0, 0
+  {
+   COORD (520,3640)
+  }
+  WIRE  1171, 0, 0
+  {
+   NET 2857
+   VTX 1168, 1169
+  }
+  WIRE  1172, 0, 0
+  {
+   NET 2857
+   VTX 1124, 1169
+  }
+  VTX  1175, 0, 0
+  {
+   COORD (600,3680)
+  }
+  VTX  1176, 0, 0
+  {
+   COORD (480,3680)
+  }
+  WIRE  1178, 0, 0
+  {
+   NET 2864
+   VTX 1175, 1176
+  }
+  WIRE  1179, 0, 0
+  {
+   NET 2864
+   VTX 1131, 1176
+  }
+  VTX  1182, 0, 0
+  {
+   COORD (760,3720)
+  }
+  VTX  1183, 0, 0
+  {
+   COORD (440,3720)
+  }
+  WIRE  1185, 0, 0
+  {
+   NET 2871
+   VTX 1182, 1183
+  }
+  WIRE  1186, 0, 0
+  {
+   NET 2871
+   VTX 1143, 1183
+  }
+  INSTANCE  1189, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U52"
+    #SYMBOL="and4"
+   }
+   COORD (760,3760)
+   VERTEXES ( (10,1218), (6,1223), (8,1235), (2,1249), (4,1319) )
+  }
+  INSTANCE  1191, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U53"
+    #SYMBOL="and4"
+   }
+   COORD (760,3940)
+   VERTEXES ( (10,1255), (8,1262), (6,1268), (2,1274), (4,1317) )
+  }
+  INSTANCE  1216, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U57"
+    #SYMBOL="inv"
+   }
+   COORD (600,3760)
+   VERTEXES ( (4,1219), (2,1228) )
+  }
+  INSTANCE  1217, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U58"
+    #SYMBOL="inv"
+   }
+   COORD (600,3840)
+   VERTEXES ( (4,1224), (2,1242) )
+  }
+  VTX  1218, 0, 0
+  {
+   COORD (760,3780)
+  }
+  VTX  1219, 0, 0
+  {
+   COORD (720,3780)
+  }
+  WIRE  1221, 0, 0
+  {
+   NET 1222
+   VTX 1218, 1219
+  }
+  NET WIRE  1222, 0, 0
+  VTX  1223, 0, 0
+  {
+   COORD (760,3860)
+  }
+  VTX  1224, 0, 0
+  {
+   COORD (720,3860)
+  }
+  WIRE  1226, 0, 0
+  {
+   NET 1227
+   VTX 1223, 1224
+  }
+  NET WIRE  1227, 0, 0
+  VTX  1228, 0, 0
+  {
+   COORD (600,3780)
+  }
+  VTX  1229, 0, 0
+  {
+   COORD (560,3780)
+  }
+  WIRE  1231, 0, 0
+  {
+   NET 2850
+   VTX 1228, 1229
+  }
+  WIRE  1232, 0, 0
+  {
+   NET 2850
+   VTX 1162, 1229
+  }
+  VTX  1235, 0, 0
+  {
+   COORD (760,3820)
+  }
+  VTX  1236, 0, 0
+  {
+   COORD (520,3820)
+  }
+  WIRE  1238, 0, 0
+  {
+   NET 2857
+   VTX 1235, 1236
+  }
+  WIRE  1239, 0, 0
+  {
+   NET 2857
+   VTX 1169, 1236
+  }
+  VTX  1242, 0, 0
+  {
+   COORD (600,3860)
+  }
+  VTX  1243, 0, 0
+  {
+   COORD (480,3860)
+  }
+  WIRE  1245, 0, 0
+  {
+   NET 2864
+   VTX 1242, 1243
+  }
+  WIRE  1246, 0, 0
+  {
+   NET 2864
+   VTX 1176, 1243
+  }
+  VTX  1249, 0, 0
+  {
+   COORD (760,3900)
+  }
+  VTX  1250, 0, 0
+  {
+   COORD (440,3900)
+  }
+  WIRE  1251, 0, 0
+  {
+   NET 2871
+   VTX 1249, 1250
+  }
+  WIRE  1252, 0, 0
+  {
+   NET 2871
+   VTX 1183, 1250
+  }
+  VTX  1255, 0, 0
+  {
+   COORD (760,3960)
+  }
+  VTX  1256, 0, 0
+  {
+   COORD (560,3960)
+  }
+  WIRE  1258, 0, 0
+  {
+   NET 2850
+   VTX 1255, 1256
+  }
+  WIRE  1259, 0, 0
+  {
+   NET 2850
+   VTX 1229, 1256
+  }
+  VTX  1262, 0, 0
+  {
+   COORD (760,4000)
+  }
+  VTX  1263, 0, 0
+  {
+   COORD (520,4000)
+  }
+  WIRE  1264, 0, 0
+  {
+   NET 2857
+   VTX 1262, 1263
+  }
+  WIRE  1265, 0, 0
+  {
+   NET 2857
+   VTX 1236, 1263
+  }
+  VTX  1268, 0, 0
+  {
+   COORD (760,4040)
+  }
+  VTX  1269, 0, 0
+  {
+   COORD (480,4040)
+  }
+  WIRE  1270, 0, 0
+  {
+   NET 2864
+   VTX 1268, 1269
+  }
+  WIRE  1271, 0, 0
+  {
+   NET 2864
+   VTX 1243, 1269
+  }
+  VTX  1274, 0, 0
+  {
+   COORD (760,4080)
+  }
+  VTX  1275, 0, 0
+  {
+   COORD (440,4080)
+  }
+  WIRE  1277, 0, 0
+  {
+   NET 2871
+   VTX 1274, 1275
+  }
+  WIRE  1278, 0, 0
+  {
+   NET 2871
+   VTX 1250, 1275
+  }
+  INSTANCE  1281, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U54"
+    #SYMBOL="or2"
+   }
+   COORD (1000,3880)
+   VERTEXES ( (6,1320), (2,1318), (4,1332) )
+  }
+  NET WIRE  1290, 0, 0
+  NET WIRE  1299, 0, 0
+  INSTANCE  1300, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U55"
+    #SYMBOL="or2"
+   }
+   COORD (1220,3600)
+   VERTEXES ( (6,1311), (2,1331), (4,2400) )
+  }
+  NET WIRE  1309, 0, 0
+  VTX  1310, 0, 0
+  {
+   COORD (1140,3380)
+  }
+  VTX  1311, 0, 0
+  {
+   COORD (1220,3620)
+  }
+  VTX  1312, 0, 0
+  {
+   COORD (1180,3380)
+  }
+  WIRE  1313, 0, 0
+  {
+   NET 1309
+   VTX 1310, 1312
+  }
+  VTX  1314, 0, 0
+  {
+   COORD (1180,3620)
+  }
+  WIRE  1315, 0, 0
+  {
+   NET 1309
+   VTX 1312, 1314
+  }
+  WIRE  1316, 0, 0
+  {
+   NET 1309
+   VTX 1314, 1311
+  }
+  VTX  1317, 0, 0
+  {
+   COORD (920,4020)
+  }
+  VTX  1318, 0, 0
+  {
+   COORD (1000,3940)
+  }
+  VTX  1319, 0, 0
+  {
+   COORD (920,3840)
+  }
+  VTX  1320, 0, 0
+  {
+   COORD (1000,3900)
+  }
+  VTX  1321, 0, 0
+  {
+   COORD (980,4020)
+  }
+  WIRE  1322, 0, 0
+  {
+   NET 1299
+   VTX 1317, 1321
+  }
+  VTX  1323, 0, 0
+  {
+   COORD (980,3940)
+  }
+  WIRE  1324, 0, 0
+  {
+   NET 1299
+   VTX 1321, 1323
+  }
+  WIRE  1325, 0, 0
+  {
+   NET 1299
+   VTX 1323, 1318
+  }
+  VTX  1326, 0, 0
+  {
+   COORD (980,3840)
+  }
+  WIRE  1327, 0, 0
+  {
+   NET 1290
+   VTX 1319, 1326
+  }
+  VTX  1328, 0, 0
+  {
+   COORD (980,3900)
+  }
+  WIRE  1329, 0, 0
+  {
+   NET 1290
+   VTX 1326, 1328
+  }
+  WIRE  1330, 0, 0
+  {
+   NET 1290
+   VTX 1328, 1320
+  }
+  VTX  1331, 0, 0
+  {
+   COORD (1220,3660)
+  }
+  VTX  1332, 0, 0
+  {
+   COORD (1160,3920)
+  }
+  VTX  1334, 0, 0
+  {
+   COORD (1180,3660)
+  }
+  WIRE  1335, 0, 0
+  {
+   NET 1339
+   VTX 1331, 1334
+  }
+  VTX  1336, 0, 0
+  {
+   COORD (1180,3920)
+  }
+  WIRE  1337, 0, 0
+  {
+   NET 1339
+   VTX 1334, 1336
+  }
+  WIRE  1338, 0, 0
+  {
+   NET 1339
+   VTX 1336, 1332
+  }
+  NET WIRE  1339, 0, 0
+  INSTANCE  1340, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U56"
+    #SYMBOL="and4"
+   }
+   COORD (760,4180)
+   VERTEXES ( (8,1485), (6,1481), (2,1469), (4,1473), (10,1566) )
+  }
+  INSTANCE  1345, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U59"
+    #SYMBOL="inv"
+   }
+   COORD (600,4300)
+   VERTEXES ( (4,1470), (2,1587) )
+  }
+  NET WIRE  1347, 0, 0
+  INSTANCE  1349, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U60"
+    #SYMBOL="and4"
+   }
+   COORD (760,4360)
+   VERTEXES ( (2,1487), (4,1475), (10,1595), (8,1601), (6,1621) )
+  }
+  INSTANCE  1358, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U62"
+    #SYMBOL="and4"
+   }
+   COORD (760,4540)
+   VERTEXES ( (2,1489), (4,1477), (6,1628), (10,1635), (8,1640) )
+  }
+  INSTANCE  1361, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U63"
+    #SYMBOL="and4"
+   }
+   COORD (760,4720)
+   VERTEXES ( (8,1493), (4,1479), (10,1667), (6,1682), (2,1688) )
+  }
+  INSTANCE  1365, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U64"
+    #SYMBOL="or4"
+   }
+   COORD (980,4440)
+   VERTEXES ( (10,1474), (8,1476), (6,1478), (2,1480), (4,1503) )
+  }
+  NET WIRE  1371, 0, 0
+  NET WIRE  1375, 0, 0
+  NET WIRE  1379, 0, 0
+  NET WIRE  1383, 0, 0
+  INSTANCE  1387, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U65"
+    #SYMBOL="inv"
+   }
+   COORD (600,4260)
+   VERTEXES ( (4,1482), (2,1580) )
+  }
+  NET WIRE  1389, 0, 0
+  INSTANCE  1404, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U67"
+    #SYMBOL="inv"
+   }
+   COORD (600,4220)
+   VERTEXES ( (4,1486), (2,1573) )
+  }
+  NET WIRE  1407, 0, 0
+  INSTANCE  1408, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U68"
+    #SYMBOL="inv"
+   }
+   COORD (600,4480)
+   VERTEXES ( (4,1488), (2,1614) )
+  }
+  NET WIRE  1411, 0, 0
+  INSTANCE  1412, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U69"
+    #SYMBOL="inv"
+   }
+   COORD (600,4660)
+   VERTEXES ( (4,1490), (2,1659) )
+  }
+  NET WIRE  1415, 0, 0
+  INSTANCE  1416, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U70"
+    #SYMBOL="inv"
+   }
+   COORD (600,4760)
+   VERTEXES ( (4,1494), (2,1674) )
+  }
+  NET WIRE  1423, 0, 0
+  INSTANCE  1424, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U72"
+    #SYMBOL="and4"
+   }
+   COORD (760,4900)
+   VERTEXES ( (4,1499), (2,1700), (6,1705), (8,1711), (10,1718) )
+  }
+  INSTANCE  1428, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U73"
+    #SYMBOL="and4"
+   }
+   COORD (760,5080)
+   VERTEXES ( (4,1501), (10,1733), (8,1740), (6,1745), (2,1764) )
+  }
+  INSTANCE  1438, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U76"
+    #SYMBOL="or2"
+   }
+   COORD (1000,5020)
+   VERTEXES ( (6,1500), (2,1502), (4,1506) )
+  }
+  NET WIRE  1442, 0, 0
+  NET WIRE  1446, 0, 0
+  INSTANCE  1450, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U77"
+    #SYMBOL="or2"
+   }
+   COORD (1220,4740)
+   VERTEXES ( (6,1504), (2,1505), (4,2405) )
+  }
+  NET WIRE  1453, 0, 0
+  NET WIRE  1464, 0, 0
+  VTX  1469, 0, 0
+  {
+   COORD (760,4320)
+  }
+  VTX  1470, 0, 0
+  {
+   COORD (720,4320)
+  }
+  VTX  1473, 0, 0
+  {
+   COORD (920,4260)
+  }
+  VTX  1474, 0, 0
+  {
+   COORD (980,4460)
+  }
+  VTX  1475, 0, 0
+  {
+   COORD (920,4440)
+  }
+  VTX  1476, 0, 0
+  {
+   COORD (980,4500)
+  }
+  VTX  1477, 0, 0
+  {
+   COORD (920,4620)
+  }
+  VTX  1478, 0, 0
+  {
+   COORD (980,4540)
+  }
+  VTX  1479, 0, 0
+  {
+   COORD (920,4800)
+  }
+  VTX  1480, 0, 0
+  {
+   COORD (980,4580)
+  }
+  VTX  1481, 0, 0
+  {
+   COORD (760,4280)
+  }
+  VTX  1482, 0, 0
+  {
+   COORD (720,4280)
+  }
+  VTX  1485, 0, 0
+  {
+   COORD (760,4240)
+  }
+  VTX  1486, 0, 0
+  {
+   COORD (720,4240)
+  }
+  VTX  1487, 0, 0
+  {
+   COORD (760,4500)
+  }
+  VTX  1488, 0, 0
+  {
+   COORD (720,4500)
+  }
+  VTX  1489, 0, 0
+  {
+   COORD (760,4680)
+  }
+  VTX  1490, 0, 0
+  {
+   COORD (720,4680)
+  }
+  VTX  1493, 0, 0
+  {
+   COORD (760,4780)
+  }
+  VTX  1494, 0, 0
+  {
+   COORD (720,4780)
+  }
+  VTX  1499, 0, 0
+  {
+   COORD (920,4980)
+  }
+  VTX  1500, 0, 0
+  {
+   COORD (1000,5040)
+  }
+  VTX  1501, 0, 0
+  {
+   COORD (920,5160)
+  }
+  VTX  1502, 0, 0
+  {
+   COORD (1000,5080)
+  }
+  VTX  1503, 0, 0
+  {
+   COORD (1140,4520)
+  }
+  VTX  1504, 0, 0
+  {
+   COORD (1220,4760)
+  }
+  VTX  1505, 0, 0
+  {
+   COORD (1220,4800)
+  }
+  VTX  1506, 0, 0
+  {
+   COORD (1160,5060)
+  }
+  WIRE  1507, 0, 0
+  {
+   NET 1347
+   VTX 1469, 1470
+  }
+  VTX  1509, 0, 0
+  {
+   COORD (960,4260)
+  }
+  WIRE  1510, 0, 0
+  {
+   NET 1371
+   VTX 1473, 1509
+  }
+  VTX  1511, 0, 0
+  {
+   COORD (960,4460)
+  }
+  WIRE  1512, 0, 0
+  {
+   NET 1371
+   VTX 1509, 1511
+  }
+  WIRE  1513, 0, 0
+  {
+   NET 1371
+   VTX 1511, 1474
+  }
+  VTX  1514, 0, 0
+  {
+   COORD (940,4440)
+  }
+  WIRE  1515, 0, 0
+  {
+   NET 1375
+   VTX 1475, 1514
+  }
+  VTX  1516, 0, 0
+  {
+   COORD (940,4500)
+  }
+  WIRE  1517, 0, 0
+  {
+   NET 1375
+   VTX 1514, 1516
+  }
+  WIRE  1518, 0, 0
+  {
+   NET 1375
+   VTX 1516, 1476
+  }
+  VTX  1519, 0, 0
+  {
+   COORD (940,4620)
+  }
+  WIRE  1520, 0, 0
+  {
+   NET 1379
+   VTX 1477, 1519
+  }
+  VTX  1521, 0, 0
+  {
+   COORD (940,4540)
+  }
+  WIRE  1522, 0, 0
+  {
+   NET 1379
+   VTX 1519, 1521
+  }
+  WIRE  1523, 0, 0
+  {
+   NET 1379
+   VTX 1521, 1478
+  }
+  VTX  1524, 0, 0
+  {
+   COORD (960,4800)
+  }
+  WIRE  1525, 0, 0
+  {
+   NET 1383
+   VTX 1479, 1524
+  }
+  VTX  1526, 0, 0
+  {
+   COORD (960,4580)
+  }
+  WIRE  1527, 0, 0
+  {
+   NET 1383
+   VTX 1524, 1526
+  }
+  WIRE  1528, 0, 0
+  {
+   NET 1383
+   VTX 1526, 1480
+  }
+  WIRE  1529, 0, 0
+  {
+   NET 1389
+   VTX 1481, 1482
+  }
+  WIRE  1531, 0, 0
+  {
+   NET 1407
+   VTX 1485, 1486
+  }
+  WIRE  1532, 0, 0
+  {
+   NET 1411
+   VTX 1487, 1488
+  }
+  WIRE  1533, 0, 0
+  {
+   NET 1415
+   VTX 1489, 1490
+  }
+  WIRE  1535, 0, 0
+  {
+   NET 1423
+   VTX 1493, 1494
+  }
+  VTX  1538, 0, 0
+  {
+   COORD (980,4980)
+  }
+  WIRE  1539, 0, 0
+  {
+   NET 1442
+   VTX 1499, 1538
+  }
+  VTX  1540, 0, 0
+  {
+   COORD (980,5040)
+  }
+  WIRE  1541, 0, 0
+  {
+   NET 1442
+   VTX 1538, 1540
+  }
+  WIRE  1542, 0, 0
+  {
+   NET 1442
+   VTX 1540, 1500
+  }
+  VTX  1543, 0, 0
+  {
+   COORD (980,5160)
+  }
+  WIRE  1544, 0, 0
+  {
+   NET 1446
+   VTX 1501, 1543
+  }
+  VTX  1545, 0, 0
+  {
+   COORD (980,5080)
+  }
+  WIRE  1546, 0, 0
+  {
+   NET 1446
+   VTX 1543, 1545
+  }
+  WIRE  1547, 0, 0
+  {
+   NET 1446
+   VTX 1545, 1502
+  }
+  VTX  1548, 0, 0
+  {
+   COORD (1180,4520)
+  }
+  WIRE  1549, 0, 0
+  {
+   NET 1453
+   VTX 1503, 1548
+  }
+  VTX  1550, 0, 0
+  {
+   COORD (1180,4760)
+  }
+  WIRE  1551, 0, 0
+  {
+   NET 1453
+   VTX 1548, 1550
+  }
+  WIRE  1552, 0, 0
+  {
+   NET 1453
+   VTX 1550, 1504
+  }
+  VTX  1553, 0, 0
+  {
+   COORD (1180,4800)
+  }
+  WIRE  1554, 0, 0
+  {
+   NET 1464
+   VTX 1505, 1553
+  }
+  VTX  1555, 0, 0
+  {
+   COORD (1180,5060)
+  }
+  WIRE  1556, 0, 0
+  {
+   NET 1464
+   VTX 1553, 1555
+  }
+  WIRE  1557, 0, 0
+  {
+   NET 1464
+   VTX 1555, 1506
+  }
+  VTX  1566, 0, 0
+  {
+   COORD (760,4200)
+  }
+  VTX  1567, 0, 0
+  {
+   COORD (560,4200)
+  }
+  WIRE  1569, 0, 0
+  {
+   NET 2850
+   VTX 1566, 1567
+  }
+  WIRE  1570, 0, 0
+  {
+   NET 2850
+   VTX 1256, 1567
+  }
+  VTX  1573, 0, 0
+  {
+   COORD (600,4240)
+  }
+  VTX  1574, 0, 0
+  {
+   COORD (520,4240)
+  }
+  WIRE  1576, 0, 0
+  {
+   NET 2857
+   VTX 1573, 1574
+  }
+  WIRE  1577, 0, 0
+  {
+   NET 2857
+   VTX 1263, 1574
+  }
+  VTX  1580, 0, 0
+  {
+   COORD (600,4280)
+  }
+  VTX  1581, 0, 0
+  {
+   COORD (480,4280)
+  }
+  WIRE  1583, 0, 0
+  {
+   NET 2864
+   VTX 1580, 1581
+  }
+  WIRE  1584, 0, 0
+  {
+   NET 2864
+   VTX 1269, 1581
+  }
+  VTX  1587, 0, 0
+  {
+   COORD (600,4320)
+  }
+  VTX  1588, 0, 0
+  {
+   COORD (440,4320)
+  }
+  WIRE  1590, 0, 0
+  {
+   NET 2871
+   VTX 1587, 1588
+  }
+  WIRE  1591, 0, 0
+  {
+   NET 2871
+   VTX 1275, 1588
+  }
+  INSTANCE  1594, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U78"
+    #SYMBOL="inv"
+   }
+   COORD (600,4440)
+   VERTEXES ( (2,1607), (4,1622) )
+  }
+  VTX  1595, 0, 0
+  {
+   COORD (760,4380)
+  }
+  VTX  1596, 0, 0
+  {
+   COORD (560,4380)
+  }
+  WIRE  1597, 0, 0
+  {
+   NET 2850
+   VTX 1595, 1596
+  }
+  WIRE  1598, 0, 0
+  {
+   NET 2850
+   VTX 1567, 1596
+  }
+  VTX  1601, 0, 0
+  {
+   COORD (760,4420)
+  }
+  VTX  1602, 0, 0
+  {
+   COORD (520,4420)
+  }
+  WIRE  1603, 0, 0
+  {
+   NET 2857
+   VTX 1601, 1602
+  }
+  WIRE  1604, 0, 0
+  {
+   NET 2857
+   VTX 1574, 1602
+  }
+  VTX  1607, 0, 0
+  {
+   COORD (600,4460)
+  }
+  VTX  1608, 0, 0
+  {
+   COORD (480,4460)
+  }
+  WIRE  1610, 0, 0
+  {
+   NET 2864
+   VTX 1607, 1608
+  }
+  WIRE  1611, 0, 0
+  {
+   NET 2864
+   VTX 1581, 1608
+  }
+  VTX  1614, 0, 0
+  {
+   COORD (600,4500)
+  }
+  VTX  1615, 0, 0
+  {
+   COORD (440,4500)
+  }
+  WIRE  1617, 0, 0
+  {
+   NET 2871
+   VTX 1614, 1615
+  }
+  WIRE  1618, 0, 0
+  {
+   NET 2871
+   VTX 1588, 1615
+  }
+  VTX  1621, 0, 0
+  {
+   COORD (760,4460)
+  }
+  VTX  1622, 0, 0
+  {
+   COORD (720,4460)
+  }
+  WIRE  1624, 0, 0
+  {
+   NET 1625
+   VTX 1621, 1622
+  }
+  NET WIRE  1625, 0, 0
+  INSTANCE  1626, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U66"
+    #SYMBOL="inv"
+   }
+   COORD (600,4540)
+   VERTEXES ( (4,1636), (2,1645) )
+  }
+  INSTANCE  1627, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U61"
+    #SYMBOL="inv"
+   }
+   COORD (600,4580)
+   VERTEXES ( (4,1641), (2,1652) )
+  }
+  VTX  1628, 0, 0
+  {
+   COORD (760,4640)
+  }
+  VTX  1629, 0, 0
+  {
+   COORD (480,4640)
+  }
+  WIRE  1631, 0, 0
+  {
+   NET 2864
+   VTX 1628, 1629
+  }
+  WIRE  1632, 0, 0
+  {
+   NET 2864
+   VTX 1608, 1629
+  }
+  VTX  1635, 0, 0
+  {
+   COORD (760,4560)
+  }
+  VTX  1636, 0, 0
+  {
+   COORD (720,4560)
+  }
+  WIRE  1638, 0, 0
+  {
+   NET 1639
+   VTX 1635, 1636
+  }
+  NET WIRE  1639, 0, 0
+  VTX  1640, 0, 0
+  {
+   COORD (760,4600)
+  }
+  VTX  1641, 0, 0
+  {
+   COORD (720,4600)
+  }
+  WIRE  1643, 0, 0
+  {
+   NET 1644
+   VTX 1640, 1641
+  }
+  NET WIRE  1644, 0, 0
+  VTX  1645, 0, 0
+  {
+   COORD (600,4560)
+  }
+  VTX  1646, 0, 0
+  {
+   COORD (560,4560)
+  }
+  WIRE  1648, 0, 0
+  {
+   NET 2850
+   VTX 1645, 1646
+  }
+  WIRE  1649, 0, 0
+  {
+   NET 2850
+   VTX 1596, 1646
+  }
+  VTX  1652, 0, 0
+  {
+   COORD (600,4600)
+  }
+  VTX  1653, 0, 0
+  {
+   COORD (520,4600)
+  }
+  WIRE  1655, 0, 0
+  {
+   NET 2857
+   VTX 1652, 1653
+  }
+  WIRE  1656, 0, 0
+  {
+   NET 2857
+   VTX 1602, 1653
+  }
+  VTX  1659, 0, 0
+  {
+   COORD (600,4680)
+  }
+  VTX  1660, 0, 0
+  {
+   COORD (440,4680)
+  }
+  WIRE  1662, 0, 0
+  {
+   NET 2871
+   VTX 1659, 1660
+  }
+  WIRE  1663, 0, 0
+  {
+   NET 2871
+   VTX 1615, 1660
+  }
+  INSTANCE  1666, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U71"
+    #SYMBOL="inv"
+   }
+   COORD (600,4840)
+   VERTEXES ( (4,1687), (2,1692) )
+  }
+  VTX  1667, 0, 0
+  {
+   COORD (760,4740)
+  }
+  VTX  1668, 0, 0
+  {
+   COORD (560,4740)
+  }
+  WIRE  1670, 0, 0
+  {
+   NET 2850
+   VTX 1667, 1668
+  }
+  WIRE  1671, 0, 0
+  {
+   NET 2850
+   VTX 1646, 1668
+  }
+  VTX  1674, 0, 0
+  {
+   COORD (600,4780)
+  }
+  VTX  1675, 0, 0
+  {
+   COORD (520,4780)
+  }
+  WIRE  1677, 0, 0
+  {
+   NET 2857
+   VTX 1674, 1675
+  }
+  WIRE  1678, 0, 0
+  {
+   NET 2857
+   VTX 1653, 1675
+  }
+  VTX  1681, 0, 0
+  {
+   COORD (480,4820)
+  }
+  VTX  1682, 0, 0
+  {
+   COORD (760,4820)
+  }
+  WIRE  1683, 0, 0
+  {
+   NET 2864
+   VTX 1681, 1682
+  }
+  WIRE  1684, 0, 0
+  {
+   NET 2864
+   VTX 1629, 1681
+  }
+  VTX  1687, 0, 0
+  {
+   COORD (720,4860)
+  }
+  VTX  1688, 0, 0
+  {
+   COORD (760,4860)
+  }
+  WIRE  1690, 0, 0
+  {
+   NET 1691
+   VTX 1687, 1688
+  }
+  NET WIRE  1691, 0, 0
+  VTX  1692, 0, 0
+  {
+   COORD (600,4860)
+  }
+  VTX  1693, 0, 0
+  {
+   COORD (440,4860)
+  }
+  WIRE  1695, 0, 0
+  {
+   NET 2871
+   VTX 1692, 1693
+  }
+  WIRE  1696, 0, 0
+  {
+   NET 2871
+   VTX 1660, 1693
+  }
+  INSTANCE  1699, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U74"
+    #SYMBOL="inv"
+   }
+   COORD (600,5020)
+   VERTEXES ( (4,1701), (2,1724) )
+  }
+  VTX  1700, 0, 0
+  {
+   COORD (760,5040)
+  }
+  VTX  1701, 0, 0
+  {
+   COORD (720,5040)
+  }
+  WIRE  1703, 0, 0
+  {
+   NET 1704
+   VTX 1700, 1701
+  }
+  NET WIRE  1704, 0, 0
+  VTX  1705, 0, 0
+  {
+   COORD (760,5000)
+  }
+  VTX  1706, 0, 0
+  {
+   COORD (480,5000)
+  }
+  WIRE  1707, 0, 0
+  {
+   NET 2864
+   VTX 1705, 1706
+  }
+  WIRE  1708, 0, 0
+  {
+   NET 2864
+   VTX 1681, 1706
+  }
+  VTX  1711, 0, 0
+  {
+   COORD (760,4960)
+  }
+  VTX  1712, 0, 0
+  {
+   COORD (520,4960)
+  }
+  WIRE  1714, 0, 0
+  {
+   NET 2857
+   VTX 1711, 1712
+  }
+  WIRE  1715, 0, 0
+  {
+   NET 2857
+   VTX 1675, 1712
+  }
+  VTX  1718, 0, 0
+  {
+   COORD (760,4920)
+  }
+  VTX  1719, 0, 0
+  {
+   COORD (560,4920)
+  }
+  WIRE  1720, 0, 0
+  {
+   NET 2850
+   VTX 1718, 1719
+  }
+  WIRE  1721, 0, 0
+  {
+   NET 2850
+   VTX 1668, 1719
+  }
+  VTX  1724, 0, 0
+  {
+   COORD (600,5040)
+  }
+  VTX  1725, 0, 0
+  {
+   COORD (440,5040)
+  }
+  WIRE  1727, 0, 0
+  {
+   NET 2871
+   VTX 1724, 1725
+  }
+  WIRE  1728, 0, 0
+  {
+   NET 2871
+   VTX 1693, 1725
+  }
+  INSTANCE  1731, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U75"
+    #SYMBOL="inv"
+   }
+   COORD (600,5120)
+   VERTEXES ( (4,1741), (2,1750) )
+  }
+  INSTANCE  1732, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U79"
+    #SYMBOL="inv"
+   }
+   COORD (600,5160)
+   VERTEXES ( (4,1746), (2,1757) )
+  }
+  VTX  1733, 0, 0
+  {
+   COORD (760,5100)
+  }
+  VTX  1734, 0, 0
+  {
+   COORD (560,5100)
+  }
+  WIRE  1736, 0, 0
+  {
+   NET 2850
+   VTX 1733, 1734
+  }
+  WIRE  1737, 0, 0
+  {
+   NET 2850
+   VTX 1719, 1734
+  }
+  VTX  1740, 0, 0
+  {
+   COORD (760,5140)
+  }
+  VTX  1741, 0, 0
+  {
+   COORD (720,5140)
+  }
+  WIRE  1743, 0, 0
+  {
+   NET 1744
+   VTX 1740, 1741
+  }
+  NET WIRE  1744, 0, 0
+  VTX  1745, 0, 0
+  {
+   COORD (760,5180)
+  }
+  VTX  1746, 0, 0
+  {
+   COORD (720,5180)
+  }
+  WIRE  1748, 0, 0
+  {
+   NET 1749
+   VTX 1745, 1746
+  }
+  NET WIRE  1749, 0, 0
+  VTX  1750, 0, 0
+  {
+   COORD (600,5140)
+  }
+  VTX  1751, 0, 0
+  {
+   COORD (520,5140)
+  }
+  WIRE  1753, 0, 0
+  {
+   NET 2857
+   VTX 1750, 1751
+  }
+  WIRE  1754, 0, 0
+  {
+   NET 2857
+   VTX 1712, 1751
+  }
+  VTX  1757, 0, 0
+  {
+   COORD (600,5180)
+  }
+  VTX  1758, 0, 0
+  {
+   COORD (480,5180)
+  }
+  WIRE  1760, 0, 0
+  {
+   NET 2864
+   VTX 1757, 1758
+  }
+  WIRE  1761, 0, 0
+  {
+   NET 2864
+   VTX 1706, 1758
+  }
+  VTX  1764, 0, 0
+  {
+   COORD (760,5220)
+  }
+  VTX  1765, 0, 0
+  {
+   COORD (440,5220)
+  }
+  WIRE  1767, 0, 0
+  {
+   NET 2871
+   VTX 1764, 1765
+  }
+  WIRE  1768, 0, 0
+  {
+   NET 2871
+   VTX 1725, 1765
+  }
+  INSTANCE  1771, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U80"
+    #SYMBOL="and4"
+   }
+   COORD (760,5300)
+   VERTEXES ( (8,1857), (2,1859), (4,1867), (6,1918), (10,1923) )
+  }
+  INSTANCE  1775, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U81"
+    #SYMBOL="inv"
+   }
+   COORD (600,5340)
+   VERTEXES ( (4,1858), (2,1930) )
+  }
+  INSTANCE  1777, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U82"
+    #SYMBOL="inv"
+   }
+   COORD (600,5420)
+   VERTEXES ( (4,1860), (2,1944) )
+  }
+  NET WIRE  1779, 0, 0
+  NET WIRE  1781, 0, 0
+  INSTANCE  1783, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U83"
+    #SYMBOL="and4"
+   }
+   COORD (760,5480)
+   VERTEXES ( (10,1863), (2,1861), (4,1869), (8,1953), (6,1981) )
+  }
+  INSTANCE  1789, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U85"
+    #SYMBOL="inv"
+   }
+   COORD (600,5600)
+   VERTEXES ( (4,1862), (2,1974) )
+  }
+  NET WIRE  1791, 0, 0
+  NET WIRE  1793, 0, 0
+  INSTANCE  1795, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U86"
+    #SYMBOL="and4"
+   }
+   COORD (760,5660)
+   VERTEXES ( (6,1865), (4,1871), (10,1986), (8,1993), (2,2008) )
+  }
+  INSTANCE  1798, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U87"
+    #SYMBOL="inv"
+   }
+   COORD (600,5740)
+   VERTEXES ( (4,1866), (2,2000) )
+  }
+  NET WIRE  1800, 0, 0
+  INSTANCE  1802, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U88"
+    #SYMBOL="and4"
+   }
+   COORD (760,5840)
+   VERTEXES ( (4,1873), (10,2021), (8,2027), (6,2034), (2,2059) )
+  }
+  INSTANCE  1805, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U89"
+    #SYMBOL="or4"
+   }
+   COORD (980,5560)
+   VERTEXES ( (10,1868), (8,1870), (6,1872), (2,1874), (4,1877) )
+  }
+  NET WIRE  1811, 0, 0
+  NET WIRE  1815, 0, 0
+  NET WIRE  1819, 0, 0
+  NET WIRE  1823, 0, 0
+  INSTANCE  1840, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U91"
+    #SYMBOL="and4"
+   }
+   COORD (760,6020)
+   VERTEXES ( (4,1879), (8,2064), (10,2069), (6,2083), (2,2090) )
+  }
+  INSTANCE  1842, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U92"
+    #SYMBOL="or2"
+   }
+   COORD (1200,5780)
+   VERTEXES ( (6,1878), (2,1880), (4,2410) )
+  }
+  NET WIRE  1846, 0, 0
+  NET WIRE  1852, 0, 0
+  VTX  1857, 0, 0
+  {
+   COORD (760,5360)
+  }
+  VTX  1858, 0, 0
+  {
+   COORD (720,5360)
+  }
+  VTX  1859, 0, 0
+  {
+   COORD (760,5440)
+  }
+  VTX  1860, 0, 0
+  {
+   COORD (720,5440)
+  }
+  VTX  1861, 0, 0
+  {
+   COORD (760,5620)
+  }
+  VTX  1862, 0, 0
+  {
+   COORD (720,5620)
+  }
+  VTX  1863, 0, 0
+  {
+   COORD (760,5500)
+  }
+  VTX  1864, 0, 0
+  {
+   COORD (720,5500)
+  }
+  VTX  1865, 0, 0
+  {
+   COORD (760,5760)
+  }
+  VTX  1866, 0, 0
+  {
+   COORD (720,5760)
+  }
+  VTX  1867, 0, 0
+  {
+   COORD (920,5380)
+  }
+  VTX  1868, 0, 0
+  {
+   COORD (980,5580)
+  }
+  VTX  1869, 0, 0
+  {
+   COORD (920,5560)
+  }
+  VTX  1870, 0, 0
+  {
+   COORD (980,5620)
+  }
+  VTX  1871, 0, 0
+  {
+   COORD (920,5740)
+  }
+  VTX  1872, 0, 0
+  {
+   COORD (980,5660)
+  }
+  VTX  1873, 0, 0
+  {
+   COORD (920,5920)
+  }
+  VTX  1874, 0, 0
+  {
+   COORD (980,5700)
+  }
+  VTX  1877, 0, 0
+  {
+   COORD (1140,5640)
+  }
+  VTX  1878, 0, 0
+  {
+   COORD (1200,5800)
+  }
+  VTX  1879, 0, 0
+  {
+   COORD (920,6100)
+  }
+  VTX  1880, 0, 0
+  {
+   COORD (1200,5840)
+  }
+  WIRE  1881, 0, 0
+  {
+   NET 1779
+   VTX 1857, 1858
+  }
+  WIRE  1882, 0, 0
+  {
+   NET 1781
+   VTX 1859, 1860
+  }
+  WIRE  1883, 0, 0
+  {
+   NET 1791
+   VTX 1861, 1862
+  }
+  WIRE  1884, 0, 0
+  {
+   NET 1793
+   VTX 1863, 1864
+  }
+  WIRE  1885, 0, 0
+  {
+   NET 1800
+   VTX 1865, 1866
+  }
+  VTX  1886, 0, 0
+  {
+   COORD (960,5380)
+  }
+  WIRE  1887, 0, 0
+  {
+   NET 1811
+   VTX 1867, 1886
+  }
+  VTX  1888, 0, 0
+  {
+   COORD (960,5580)
+  }
+  WIRE  1889, 0, 0
+  {
+   NET 1811
+   VTX 1886, 1888
+  }
+  WIRE  1890, 0, 0
+  {
+   NET 1811
+   VTX 1888, 1868
+  }
+  VTX  1891, 0, 0
+  {
+   COORD (940,5560)
+  }
+  WIRE  1892, 0, 0
+  {
+   NET 1815
+   VTX 1869, 1891
+  }
+  VTX  1893, 0, 0
+  {
+   COORD (940,5620)
+  }
+  WIRE  1894, 0, 0
+  {
+   NET 1815
+   VTX 1891, 1893
+  }
+  WIRE  1895, 0, 0
+  {
+   NET 1815
+   VTX 1893, 1870
+  }
+  VTX  1896, 0, 0
+  {
+   COORD (940,5740)
+  }
+  WIRE  1897, 0, 0
+  {
+   NET 1819
+   VTX 1871, 1896
+  }
+  VTX  1898, 0, 0
+  {
+   COORD (940,5660)
+  }
+  WIRE  1899, 0, 0
+  {
+   NET 1819
+   VTX 1896, 1898
+  }
+  WIRE  1900, 0, 0
+  {
+   NET 1819
+   VTX 1898, 1872
+  }
+  VTX  1901, 0, 0
+  {
+   COORD (960,5920)
+  }
+  WIRE  1902, 0, 0
+  {
+   NET 1823
+   VTX 1873, 1901
+  }
+  VTX  1903, 0, 0
+  {
+   COORD (960,5700)
+  }
+  WIRE  1904, 0, 0
+  {
+   NET 1823
+   VTX 1901, 1903
+  }
+  WIRE  1905, 0, 0
+  {
+   NET 1823
+   VTX 1903, 1874
+  }
+  VTX  1907, 0, 0
+  {
+   COORD (1180,5640)
+  }
+  WIRE  1908, 0, 0
+  {
+   NET 1846
+   VTX 1877, 1907
+  }
+  VTX  1909, 0, 0
+  {
+   COORD (1180,5800)
+  }
+  WIRE  1910, 0, 0
+  {
+   NET 1846
+   VTX 1907, 1909
+  }
+  WIRE  1911, 0, 0
+  {
+   NET 1846
+   VTX 1909, 1878
+  }
+  VTX  1912, 0, 0
+  {
+   COORD (1180,6100)
+  }
+  WIRE  1913, 0, 0
+  {
+   NET 1852
+   VTX 1879, 1912
+  }
+  VTX  1914, 0, 0
+  {
+   COORD (1180,5840)
+  }
+  WIRE  1915, 0, 0
+  {
+   NET 1852
+   VTX 1912, 1914
+  }
+  WIRE  1916, 0, 0
+  {
+   NET 1852
+   VTX 1914, 1880
+  }
+  INSTANCE  1917, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U93"
+    #SYMBOL="inv"
+   }
+   COORD (600,5380)
+   VERTEXES ( (4,1919), (2,1937) )
+  }
+  VTX  1918, 0, 0
+  {
+   COORD (760,5400)
+  }
+  VTX  1919, 0, 0
+  {
+   COORD (720,5400)
+  }
+  WIRE  1921, 0, 0
+  {
+   NET 1922
+   VTX 1918, 1919
+  }
+  NET WIRE  1922, 0, 0
+  VTX  1923, 0, 0
+  {
+   COORD (760,5320)
+  }
+  VTX  1924, 0, 0
+  {
+   COORD (560,5320)
+  }
+  WIRE  1926, 0, 0
+  {
+   NET 2850
+   VTX 1923, 1924
+  }
+  WIRE  1927, 0, 0
+  {
+   NET 2850
+   VTX 1734, 1924
+  }
+  VTX  1930, 0, 0
+  {
+   COORD (600,5360)
+  }
+  VTX  1931, 0, 0
+  {
+   COORD (520,5360)
+  }
+  WIRE  1933, 0, 0
+  {
+   NET 2857
+   VTX 1930, 1931
+  }
+  WIRE  1934, 0, 0
+  {
+   NET 2857
+   VTX 1751, 1931
+  }
+  VTX  1937, 0, 0
+  {
+   COORD (600,5400)
+  }
+  VTX  1938, 0, 0
+  {
+   COORD (480,5400)
+  }
+  WIRE  1940, 0, 0
+  {
+   NET 2864
+   VTX 1937, 1938
+  }
+  WIRE  1941, 0, 0
+  {
+   NET 2864
+   VTX 1758, 1938
+  }
+  VTX  1944, 0, 0
+  {
+   COORD (600,5440)
+  }
+  VTX  1945, 0, 0
+  {
+   COORD (440,5440)
+  }
+  WIRE  1947, 0, 0
+  {
+   NET 2871
+   VTX 1944, 1945
+  }
+  WIRE  1948, 0, 0
+  {
+   NET 2871
+   VTX 1765, 1945
+  }
+  INSTANCE  1951, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U84"
+    #SYMBOL="inv"
+   }
+   COORD (600,5560)
+   VERTEXES ( (2,1967), (4,1982) )
+  }
+  INSTANCE  1952, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U94"
+    #SYMBOL="inv"
+   }
+   COORD (600,5480)
+   VERTEXES ( (4,1864), (2,1960) )
+  }
+  VTX  1953, 0, 0
+  {
+   COORD (760,5540)
+  }
+  VTX  1954, 0, 0
+  {
+   COORD (520,5540)
+  }
+  WIRE  1956, 0, 0
+  {
+   NET 2857
+   VTX 1953, 1954
+  }
+  WIRE  1957, 0, 0
+  {
+   NET 2857
+   VTX 1931, 1954
+  }
+  VTX  1960, 0, 0
+  {
+   COORD (600,5500)
+  }
+  VTX  1961, 0, 0
+  {
+   COORD (560,5500)
+  }
+  WIRE  1963, 0, 0
+  {
+   NET 2850
+   VTX 1960, 1961
+  }
+  WIRE  1964, 0, 0
+  {
+   NET 2850
+   VTX 1924, 1961
+  }
+  VTX  1967, 0, 0
+  {
+   COORD (600,5580)
+  }
+  VTX  1968, 0, 0
+  {
+   COORD (480,5580)
+  }
+  WIRE  1970, 0, 0
+  {
+   NET 2864
+   VTX 1967, 1968
+  }
+  WIRE  1971, 0, 0
+  {
+   NET 2864
+   VTX 1938, 1968
+  }
+  VTX  1974, 0, 0
+  {
+   COORD (600,5620)
+  }
+  VTX  1975, 0, 0
+  {
+   COORD (440,5620)
+  }
+  WIRE  1977, 0, 0
+  {
+   NET 2871
+   VTX 1974, 1975
+  }
+  WIRE  1978, 0, 0
+  {
+   NET 2871
+   VTX 1945, 1975
+  }
+  VTX  1981, 0, 0
+  {
+   COORD (760,5580)
+  }
+  VTX  1982, 0, 0
+  {
+   COORD (720,5580)
+  }
+  WIRE  1984, 0, 0
+  {
+   NET 1985
+   VTX 1981, 1982
+  }
+  NET WIRE  1985, 0, 0
+  VTX  1986, 0, 0
+  {
+   COORD (760,5680)
+  }
+  VTX  1987, 0, 0
+  {
+   COORD (560,5680)
+  }
+  WIRE  1989, 0, 0
+  {
+   NET 2850
+   VTX 1986, 1987
+  }
+  WIRE  1990, 0, 0
+  {
+   NET 2850
+   VTX 1961, 1987
+  }
+  VTX  1993, 0, 0
+  {
+   COORD (760,5720)
+  }
+  VTX  1994, 0, 0
+  {
+   COORD (520,5720)
+  }
+  WIRE  1996, 0, 0
+  {
+   NET 2857
+   VTX 1993, 1994
+  }
+  WIRE  1997, 0, 0
+  {
+   NET 2857
+   VTX 1954, 1994
+  }
+  VTX  2000, 0, 0
+  {
+   COORD (600,5760)
+  }
+  VTX  2001, 0, 0
+  {
+   COORD (480,5760)
+  }
+  WIRE  2003, 0, 0
+  {
+   NET 2864
+   VTX 2000, 2001
+  }
+  WIRE  2004, 0, 0
+  {
+   NET 2864
+   VTX 1968, 2001
+  }
+  INSTANCE  2007, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U95"
+    #SYMBOL="inv"
+   }
+   COORD (600,5780)
+   VERTEXES ( (4,2009), (2,2013) )
+  }
+  VTX  2008, 0, 0
+  {
+   COORD (760,5800)
+  }
+  VTX  2009, 0, 0
+  {
+   COORD (720,5800)
+  }
+  WIRE  2011, 0, 0
+  {
+   NET 2012
+   VTX 2008, 2009
+  }
+  NET WIRE  2012, 0, 0
+  VTX  2013, 0, 0
+  {
+   COORD (600,5800)
+  }
+  VTX  2014, 0, 0
+  {
+   COORD (440,5800)
+  }
+  WIRE  2016, 0, 0
+  {
+   NET 2871
+   VTX 2013, 2014
+  }
+  WIRE  2017, 0, 0
+  {
+   NET 2871
+   VTX 1975, 2014
+  }
+  INSTANCE  2020, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U90"
+    #SYMBOL="inv"
+   }
+   COORD (600,5960)
+   VERTEXES ( (2,2058), (4,2060) )
+  }
+  VTX  2021, 0, 0
+  {
+   COORD (760,5860)
+  }
+  VTX  2022, 0, 0
+  {
+   COORD (560,5860)
+  }
+  WIRE  2023, 0, 0
+  {
+   NET 2850
+   VTX 2021, 2022
+  }
+  WIRE  2024, 0, 0
+  {
+   NET 2850
+   VTX 1987, 2022
+  }
+  VTX  2027, 0, 0
+  {
+   COORD (760,5900)
+  }
+  VTX  2028, 0, 0
+  {
+   COORD (520,5900)
+  }
+  WIRE  2030, 0, 0
+  {
+   NET 2857
+   VTX 2027, 2028
+  }
+  WIRE  2031, 0, 0
+  {
+   NET 2857
+   VTX 1994, 2028
+  }
+  VTX  2034, 0, 0
+  {
+   COORD (760,5940)
+  }
+  VTX  2035, 0, 0
+  {
+   COORD (480,5940)
+  }
+  WIRE  2037, 0, 0
+  {
+   NET 2864
+   VTX 2034, 2035
+  }
+  WIRE  2038, 0, 0
+  {
+   NET 2864
+   VTX 2001, 2035
+  }
+  NET WIRE  2045, 0, 0
+  VTX  2047, 0, 0
+  {
+   COORD (440,5980)
+  }
+  WIRE  2050, 0, 0
+  {
+   NET 2871
+   VTX 2014, 2047
+  }
+  VTX  2058, 0, 0
+  {
+   COORD (600,5980)
+  }
+  VTX  2059, 0, 0
+  {
+   COORD (760,5980)
+  }
+  VTX  2060, 0, 0
+  {
+   COORD (720,5980)
+  }
+  WIRE  2061, 0, 0
+  {
+   NET 2871
+   VTX 2047, 2058
+  }
+  WIRE  2062, 0, 0
+  {
+   NET 2045
+   VTX 2059, 2060
+  }
+  INSTANCE  2063, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U96"
+    #SYMBOL="inv"
+   }
+   COORD (600,6060)
+   VERTEXES ( (4,2065), (2,2076) )
+  }
+  VTX  2064, 0, 0
+  {
+   COORD (760,6080)
+  }
+  VTX  2065, 0, 0
+  {
+   COORD (720,6080)
+  }
+  WIRE  2067, 0, 0
+  {
+   NET 2068
+   VTX 2064, 2065
+  }
+  NET WIRE  2068, 0, 0
+  VTX  2069, 0, 0
+  {
+   COORD (760,6040)
+  }
+  VTX  2070, 0, 0
+  {
+   COORD (560,6040)
+  }
+  WIRE  2072, 0, 0
+  {
+   NET 2850
+   VTX 2069, 2070
+  }
+  WIRE  2073, 0, 0
+  {
+   NET 2850
+   VTX 2022, 2070
+  }
+  VTX  2076, 0, 0
+  {
+   COORD (600,6080)
+  }
+  VTX  2077, 0, 0
+  {
+   COORD (520,6080)
+  }
+  WIRE  2079, 0, 0
+  {
+   NET 2857
+   VTX 2076, 2077
+  }
+  WIRE  2080, 0, 0
+  {
+   NET 2857
+   VTX 2028, 2077
+  }
+  VTX  2083, 0, 0
+  {
+   COORD (760,6120)
+  }
+  VTX  2084, 0, 0
+  {
+   COORD (480,6120)
+  }
+  WIRE  2086, 0, 0
+  {
+   NET 2864
+   VTX 2083, 2084
+  }
+  WIRE  2087, 0, 0
+  {
+   NET 2864
+   VTX 2035, 2084
+  }
+  VTX  2090, 0, 0
+  {
+   COORD (760,6160)
+  }
+  VTX  2091, 0, 0
+  {
+   COORD (440,6160)
+  }
+  WIRE  2093, 0, 0
+  {
+   NET 2871
+   VTX 2090, 2091
+  }
+  WIRE  2094, 0, 0
+  {
+   NET 2871
+   VTX 2047, 2091
+  }
+  INSTANCE  2097, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U97"
+    #SYMBOL="and4"
+   }
+   COORD (760,6260)
+   VERTEXES ( (10,2179), (6,2177), (2,2165), (4,2169), (8,2212) )
+  }
+  INSTANCE  2102, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U98"
+    #SYMBOL="inv"
+   }
+   COORD (600,6380)
+   VERTEXES ( (4,2166), (2,2238) )
+  }
+  NET WIRE  2104, 0, 0
+  INSTANCE  2106, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U99"
+    #SYMBOL="and4"
+   }
+   COORD (760,6440)
+   VERTEXES ( (8,2181), (4,2171), (10,2247), (6,2274), (2,2279) )
+  }
+  INSTANCE  2114, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U101"
+    #SYMBOL="and4"
+   }
+   COORD (760,6620)
+   VERTEXES ( (4,2173), (10,2285), (8,2291), (6,2298), (2,2305) )
+  }
+  INSTANCE  2117, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U102"
+    #SYMBOL="and4"
+   }
+   COORD (760,6800)
+   VERTEXES ( (4,2175), (10,2331), (8,2339), (6,2343), (2,2346) )
+  }
+  INSTANCE  2119, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U103"
+    #SYMBOL="or4"
+   }
+   COORD (980,6520)
+   VERTEXES ( (10,2170), (8,2172), (6,2174), (2,2176), (4,2443) )
+  }
+  NET WIRE  2124, 0, 0
+  NET WIRE  2128, 0, 0
+  NET WIRE  2132, 0, 0
+  NET WIRE  2136, 0, 0
+  INSTANCE  2149, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U104"
+    #SYMBOL="inv"
+   }
+   COORD (600,6340)
+   VERTEXES ( (4,2178), (2,2231) )
+  }
+  INSTANCE  2151, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U105"
+    #SYMBOL="inv"
+   }
+   COORD (600,6260)
+   VERTEXES ( (4,2180), (2,2217) )
+  }
+  NET WIRE  2154, 0, 0
+  NET WIRE  2156, 0, 0
+  INSTANCE  2157, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U106"
+    #SYMBOL="inv"
+   }
+   COORD (600,6480)
+   VERTEXES ( (4,2182), (2,2253) )
+  }
+  NET WIRE  2160, 0, 0
+  VTX  2165, 0, 0
+  {
+   COORD (760,6400)
+  }
+  VTX  2166, 0, 0
+  {
+   COORD (720,6400)
+  }
+  VTX  2169, 0, 0
+  {
+   COORD (920,6340)
+  }
+  VTX  2170, 0, 0
+  {
+   COORD (980,6540)
+  }
+  VTX  2171, 0, 0
+  {
+   COORD (920,6520)
+  }
+  VTX  2172, 0, 0
+  {
+   COORD (980,6580)
+  }
+  VTX  2173, 0, 0
+  {
+   COORD (920,6700)
+  }
+  VTX  2174, 0, 0
+  {
+   COORD (980,6620)
+  }
+  VTX  2175, 0, 0
+  {
+   COORD (920,6880)
+  }
+  VTX  2176, 0, 0
+  {
+   COORD (980,6660)
+  }
+  VTX  2177, 0, 0
+  {
+   COORD (760,6360)
+  }
+  VTX  2178, 0, 0
+  {
+   COORD (720,6360)
+  }
+  VTX  2179, 0, 0
+  {
+   COORD (760,6280)
+  }
+  VTX  2180, 0, 0
+  {
+   COORD (720,6280)
+  }
+  VTX  2181, 0, 0
+  {
+   COORD (760,6500)
+  }
+  VTX  2182, 0, 0
+  {
+   COORD (720,6500)
+  }
+  WIRE  2185, 0, 0
+  {
+   NET 2104
+   VTX 2165, 2166
+  }
+  VTX  2187, 0, 0
+  {
+   COORD (960,6340)
+  }
+  WIRE  2188, 0, 0
+  {
+   NET 2124
+   VTX 2169, 2187
+  }
+  VTX  2189, 0, 0
+  {
+   COORD (960,6540)
+  }
+  WIRE  2190, 0, 0
+  {
+   NET 2124
+   VTX 2187, 2189
+  }
+  WIRE  2191, 0, 0
+  {
+   NET 2124
+   VTX 2189, 2170
+  }
+  VTX  2192, 0, 0
+  {
+   COORD (940,6520)
+  }
+  WIRE  2193, 0, 0
+  {
+   NET 2128
+   VTX 2171, 2192
+  }
+  VTX  2194, 0, 0
+  {
+   COORD (940,6580)
+  }
+  WIRE  2195, 0, 0
+  {
+   NET 2128
+   VTX 2192, 2194
+  }
+  WIRE  2196, 0, 0
+  {
+   NET 2128
+   VTX 2194, 2172
+  }
+  VTX  2197, 0, 0
+  {
+   COORD (940,6700)
+  }
+  WIRE  2198, 0, 0
+  {
+   NET 2132
+   VTX 2173, 2197
+  }
+  VTX  2199, 0, 0
+  {
+   COORD (940,6620)
+  }
+  WIRE  2200, 0, 0
+  {
+   NET 2132
+   VTX 2197, 2199
+  }
+  WIRE  2201, 0, 0
+  {
+   NET 2132
+   VTX 2199, 2174
+  }
+  VTX  2202, 0, 0
+  {
+   COORD (960,6880)
+  }
+  WIRE  2203, 0, 0
+  {
+   NET 2136
+   VTX 2175, 2202
+  }
+  VTX  2204, 0, 0
+  {
+   COORD (960,6660)
+  }
+  WIRE  2205, 0, 0
+  {
+   NET 2136
+   VTX 2202, 2204
+  }
+  WIRE  2206, 0, 0
+  {
+   NET 2136
+   VTX 2204, 2176
+  }
+  WIRE  2207, 0, 0
+  {
+   NET 2154
+   VTX 2177, 2178
+  }
+  WIRE  2208, 0, 0
+  {
+   NET 2156
+   VTX 2179, 2180
+  }
+  WIRE  2209, 0, 0
+  {
+   NET 2160
+   VTX 2181, 2182
+  }
+  INSTANCE  2211, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U108"
+    #SYMBOL="inv"
+   }
+   COORD (600,6300)
+   VERTEXES ( (4,2213), (2,2224) )
+  }
+  VTX  2212, 0, 0
+  {
+   COORD (760,6320)
+  }
+  VTX  2213, 0, 0
+  {
+   COORD (720,6320)
+  }
+  WIRE  2215, 0, 0
+  {
+   NET 2216
+   VTX 2212, 2213
+  }
+  NET WIRE  2216, 0, 0
+  VTX  2217, 0, 0
+  {
+   COORD (600,6280)
+  }
+  VTX  2218, 0, 0
+  {
+   COORD (560,6280)
+  }
+  WIRE  2220, 0, 0
+  {
+   NET 2850
+   VTX 2217, 2218
+  }
+  WIRE  2221, 0, 0
+  {
+   NET 2850
+   VTX 2070, 2218
+  }
+  VTX  2224, 0, 0
+  {
+   COORD (600,6320)
+  }
+  VTX  2225, 0, 0
+  {
+   COORD (520,6320)
+  }
+  WIRE  2227, 0, 0
+  {
+   NET 2857
+   VTX 2224, 2225
+  }
+  WIRE  2228, 0, 0
+  {
+   NET 2857
+   VTX 2077, 2225
+  }
+  VTX  2231, 0, 0
+  {
+   COORD (600,6360)
+  }
+  VTX  2232, 0, 0
+  {
+   COORD (480,6360)
+  }
+  WIRE  2234, 0, 0
+  {
+   NET 2864
+   VTX 2231, 2232
+  }
+  WIRE  2235, 0, 0
+  {
+   NET 2864
+   VTX 2084, 2232
+  }
+  VTX  2238, 0, 0
+  {
+   COORD (600,6400)
+  }
+  VTX  2239, 0, 0
+  {
+   COORD (440,6400)
+  }
+  WIRE  2241, 0, 0
+  {
+   NET 2871
+   VTX 2238, 2239
+  }
+  WIRE  2242, 0, 0
+  {
+   NET 2871
+   VTX 2091, 2239
+  }
+  INSTANCE  2245, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U109"
+    #SYMBOL="inv"
+   }
+   COORD (600,6520)
+   VERTEXES ( (2,2260), (4,2275) )
+  }
+  INSTANCE  2246, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U110"
+    #SYMBOL="inv"
+   }
+   COORD (600,6560)
+   VERTEXES ( (2,2267), (4,2280) )
+  }
+  VTX  2247, 0, 0
+  {
+   COORD (760,6460)
+  }
+  VTX  2248, 0, 0
+  {
+   COORD (560,6460)
+  }
+  WIRE  2249, 0, 0
+  {
+   NET 2850
+   VTX 2247, 2248
+  }
+  WIRE  2250, 0, 0
+  {
+   NET 2850
+   VTX 2218, 2248
+  }
+  VTX  2253, 0, 0
+  {
+   COORD (600,6500)
+  }
+  VTX  2254, 0, 0
+  {
+   COORD (520,6500)
+  }
+  WIRE  2256, 0, 0
+  {
+   NET 2857
+   VTX 2253, 2254
+  }
+  WIRE  2257, 0, 0
+  {
+   NET 2857
+   VTX 2225, 2254
+  }
+  VTX  2260, 0, 0
+  {
+   COORD (600,6540)
+  }
+  VTX  2261, 0, 0
+  {
+   COORD (480,6540)
+  }
+  WIRE  2263, 0, 0
+  {
+   NET 2864
+   VTX 2260, 2261
+  }
+  WIRE  2264, 0, 0
+  {
+   NET 2864
+   VTX 2232, 2261
+  }
+  VTX  2267, 0, 0
+  {
+   COORD (600,6580)
+  }
+  VTX  2268, 0, 0
+  {
+   COORD (440,6580)
+  }
+  WIRE  2270, 0, 0
+  {
+   NET 2871
+   VTX 2267, 2268
+  }
+  WIRE  2271, 0, 0
+  {
+   NET 2871
+   VTX 2239, 2268
+  }
+  VTX  2274, 0, 0
+  {
+   COORD (760,6540)
+  }
+  VTX  2275, 0, 0
+  {
+   COORD (720,6540)
+  }
+  WIRE  2277, 0, 0
+  {
+   NET 2278
+   VTX 2274, 2275
+  }
+  NET WIRE  2278, 0, 0
+  VTX  2279, 0, 0
+  {
+   COORD (760,6580)
+  }
+  VTX  2280, 0, 0
+  {
+   COORD (720,6580)
+  }
+  WIRE  2282, 0, 0
+  {
+   NET 2283
+   VTX 2279, 2280
+  }
+  NET WIRE  2283, 0, 0
+  INSTANCE  2284, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U100"
+    #SYMBOL="inv"
+   }
+   COORD (600,6740)
+   VERTEXES ( (4,2306), (2,2310) )
+  }
+  VTX  2285, 0, 0
+  {
+   COORD (760,6640)
+  }
+  VTX  2286, 0, 0
+  {
+   COORD (560,6640)
+  }
+  WIRE  2287, 0, 0
+  {
+   NET 2850
+   VTX 2285, 2286
+  }
+  WIRE  2288, 0, 0
+  {
+   NET 2850
+   VTX 2248, 2286
+  }
+  VTX  2291, 0, 0
+  {
+   COORD (760,6680)
+  }
+  VTX  2292, 0, 0
+  {
+   COORD (520,6680)
+  }
+  WIRE  2294, 0, 0
+  {
+   NET 2857
+   VTX 2291, 2292
+  }
+  WIRE  2295, 0, 0
+  {
+   NET 2857
+   VTX 2254, 2292
+  }
+  VTX  2298, 0, 0
+  {
+   COORD (760,6720)
+  }
+  VTX  2299, 0, 0
+  {
+   COORD (480,6720)
+  }
+  WIRE  2301, 0, 0
+  {
+   NET 2864
+   VTX 2298, 2299
+  }
+  WIRE  2302, 0, 0
+  {
+   NET 2864
+   VTX 2261, 2299
+  }
+  VTX  2305, 0, 0
+  {
+   COORD (760,6760)
+  }
+  VTX  2306, 0, 0
+  {
+   COORD (720,6760)
+  }
+  WIRE  2308, 0, 0
+  {
+   NET 2309
+   VTX 2305, 2306
+  }
+  NET WIRE  2309, 0, 0
+  VTX  2310, 0, 0
+  {
+   COORD (600,6760)
+  }
+  VTX  2311, 0, 0
+  {
+   COORD (440,6760)
+  }
+  WIRE  2313, 0, 0
+  {
+   NET 2871
+   VTX 2310, 2311
+  }
+  WIRE  2314, 0, 0
+  {
+   NET 2871
+   VTX 2268, 2311
+  }
+  INSTANCE  2317, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U107"
+    #SYMBOL="inv"
+   }
+   COORD (600,6800)
+   VERTEXES ( (2,2327), (4,2330) )
+  }
+  INSTANCE  2318, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U111"
+    #SYMBOL="inv"
+   }
+   COORD (600,6840)
+   VERTEXES ( (2,2335), (4,2338) )
+  }
+  VTX  2319, 0, 0
+  {
+   COORD (560,6820)
+  }
+  WIRE  2320, 0, 0
+  {
+   NET 2850
+   VTX 2286, 2319
+  }
+  VTX  2321, 0, 0
+  {
+   COORD (520,6860)
+  }
+  WIRE  2322, 0, 0
+  {
+   NET 2857
+   VTX 2292, 2321
+  }
+  VTX  2323, 0, 0
+  {
+   COORD (480,6900)
+  }
+  WIRE  2324, 0, 0
+  {
+   NET 2864
+   VTX 2299, 2323
+  }
+  VTX  2325, 0, 0
+  {
+   COORD (440,6940)
+  }
+  WIRE  2326, 0, 0
+  {
+   NET 2871
+   VTX 2311, 2325
+  }
+  VTX  2327, 0, 0
+  {
+   COORD (600,6820)
+  }
+  WIRE  2328, 0, 0
+  {
+   NET 2850
+   VTX 2319, 2327
+  }
+  VTX  2330, 0, 0
+  {
+   COORD (720,6820)
+  }
+  VTX  2331, 0, 0
+  {
+   COORD (760,6820)
+  }
+  WIRE  2333, 0, 0
+  {
+   NET 2334
+   VTX 2330, 2331
+  }
+  NET WIRE  2334, 0, 0
+  VTX  2335, 0, 0
+  {
+   COORD (600,6860)
+  }
+  WIRE  2336, 0, 0
+  {
+   NET 2857
+   VTX 2321, 2335
+  }
+  VTX  2338, 0, 0
+  {
+   COORD (720,6860)
+  }
+  VTX  2339, 0, 0
+  {
+   COORD (760,6860)
+  }
+  WIRE  2341, 0, 0
+  {
+   NET 2342
+   VTX 2338, 2339
+  }
+  NET WIRE  2342, 0, 0
+  VTX  2343, 0, 0
+  {
+   COORD (760,6900)
+  }
+  WIRE  2344, 0, 0
+  {
+   NET 2864
+   VTX 2323, 2343
+  }
+  VTX  2346, 0, 0
+  {
+   COORD (760,6940)
+  }
+  WIRE  2347, 0, 0
+  {
+   NET 2871
+   VTX 2325, 2346
+  }
+  INSTANCE  2349, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fa"
+    #SYMBOL="Output"
+   }
+   COORD (1180,560)
+   VERTEXES ( (2,2608) )
+  }
+  TEXT  2350, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1232,543,1268,578)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2349
+  }
+  INSTANCE  2354, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fb"
+    #SYMBOL="Output"
+   }
+   COORD (1540,1500)
+   VERTEXES ( (2,2901) )
+  }
+  TEXT  2355, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1592,1483,1628,1518)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2354
+  }
+  INSTANCE  2359, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fc"
+    #SYMBOL="Output"
+   }
+   COORD (1180,2620)
+   VERTEXES ( (2,2394) )
+  }
+  TEXT  2360, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1232,2603,1267,2638)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2359
+  }
+  INSTANCE  2364, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fd"
+    #SYMBOL="Output"
+   }
+   COORD (1420,3640)
+   VERTEXES ( (2,2399) )
+  }
+  TEXT  2365, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1472,3623,1508,3658)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2364
+  }
+  INSTANCE  2369, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fe"
+    #SYMBOL="Output"
+   }
+   COORD (1420,4780)
+   VERTEXES ( (2,2404) )
+  }
+  TEXT  2370, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1472,4763,1508,4798)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2369
+  }
+  INSTANCE  2374, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Ff"
+    #SYMBOL="Output"
+   }
+   COORD (1400,5820)
+   VERTEXES ( (2,2409) )
+  }
+  TEXT  2375, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1452,5803,1480,5838)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2374
+  }
+  INSTANCE  2379, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Fg"
+    #SYMBOL="Output"
+   }
+   COORD (1180,6600)
+   VERTEXES ( (2,2442) )
+  }
+  TEXT  2380, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1232,6583,1268,6618)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2379
+  }
+  NET WIRE  2388, 0, 0
+  NET WIRE  2393, 0, 0
+  VTX  2394, 0, 0
+  {
+   COORD (1180,2620)
+  }
+  VTX  2395, 0, 0
+  {
+   COORD (1140,2620)
+  }
+  WIRE  2397, 0, 0
+  {
+   NET 2398
+   VTX 2394, 2395
+  }
+  NET WIRE  2398, 0, 0
+  VTX  2399, 0, 0
+  {
+   COORD (1420,3640)
+  }
+  VTX  2400, 0, 0
+  {
+   COORD (1380,3640)
+  }
+  WIRE  2402, 0, 0
+  {
+   NET 2403
+   VTX 2399, 2400
+  }
+  NET WIRE  2403, 0, 0
+  VTX  2404, 0, 0
+  {
+   COORD (1420,4780)
+  }
+  VTX  2405, 0, 0
+  {
+   COORD (1380,4780)
+  }
+  WIRE  2407, 0, 0
+  {
+   NET 2408
+   VTX 2404, 2405
+  }
+  NET WIRE  2408, 0, 0
+  VTX  2409, 0, 0
+  {
+   COORD (1400,5820)
+  }
+  VTX  2410, 0, 0
+  {
+   COORD (1360,5820)
+  }
+  WIRE  2412, 0, 0
+  {
+   NET 2413
+   VTX 2409, 2410
+  }
+  NET WIRE  2413, 0, 0
+  VTX  2442, 0, 0
+  {
+   COORD (1180,6600)
+  }
+  VTX  2443, 0, 0
+  {
+   COORD (1140,6600)
+  }
+  WIRE  2445, 0, 0
+  {
+   NET 2446
+   VTX 2442, 2443
+  }
+  NET WIRE  2446, 0, 0
+  VTX  2492, 0, 0
+  {
+   COORD (360,60)
+  }
+  VTX  2493, 0, 0
+  {
+   COORD (560,240)
+  }
+  VTX  2494, 0, 0
+  {
+   COORD (360,100)
+  }
+  VTX  2495, 0, 0
+  {
+   COORD (520,280)
+  }
+  VTX  2496, 0, 0
+  {
+   COORD (360,140)
+  }
+  VTX  2497, 0, 0
+  {
+   COORD (480,320)
+  }
+  VTX  2498, 0, 0
+  {
+   COORD (360,180)
+  }
+  VTX  2499, 0, 0
+  {
+   COORD (440,360)
+  }
+  VTX  2500, 0, 0
+  {
+   COORD (760,240)
+  }
+  VTX  2501, 0, 0
+  {
+   COORD (760,280)
+  }
+  VTX  2502, 0, 0
+  {
+   COORD (720,280)
+  }
+  VTX  2503, 0, 0
+  {
+   COORD (600,280)
+  }
+  VTX  2504, 0, 0
+  {
+   COORD (600,320)
+  }
+  VTX  2505, 0, 0
+  {
+   COORD (600,360)
+  }
+  VTX  2506, 0, 0
+  {
+   COORD (760,320)
+  }
+  VTX  2507, 0, 0
+  {
+   COORD (720,320)
+  }
+  VTX  2508, 0, 0
+  {
+   COORD (760,360)
+  }
+  VTX  2509, 0, 0
+  {
+   COORD (720,360)
+  }
+  VTX  2510, 0, 0
+  {
+   COORD (760,460)
+  }
+  VTX  2511, 0, 0
+  {
+   COORD (720,460)
+  }
+  VTX  2512, 0, 0
+  {
+   COORD (760,540)
+  }
+  VTX  2513, 0, 0
+  {
+   COORD (720,540)
+  }
+  VTX  2514, 0, 0
+  {
+   COORD (760,420)
+  }
+  VTX  2515, 0, 0
+  {
+   COORD (720,420)
+  }
+  VTX  2516, 0, 0
+  {
+   COORD (600,420)
+  }
+  VTX  2517, 0, 0
+  {
+   COORD (560,420)
+  }
+  VTX  2518, 0, 0
+  {
+   COORD (600,460)
+  }
+  VTX  2519, 0, 0
+  {
+   COORD (520,460)
+  }
+  VTX  2520, 0, 0
+  {
+   COORD (760,500)
+  }
+  VTX  2521, 0, 0
+  {
+   COORD (480,500)
+  }
+  VTX  2522, 0, 0
+  {
+   COORD (600,540)
+  }
+  VTX  2523, 0, 0
+  {
+   COORD (440,540)
+  }
+  VTX  2524, 0, 0
+  {
+   COORD (760,680)
+  }
+  VTX  2525, 0, 0
+  {
+   COORD (720,680)
+  }
+  VTX  2526, 0, 0
+  {
+   COORD (760,600)
+  }
+  VTX  2527, 0, 0
+  {
+   COORD (560,600)
+  }
+  VTX  2528, 0, 0
+  {
+   COORD (760,640)
+  }
+  VTX  2529, 0, 0
+  {
+   COORD (520,640)
+  }
+  VTX  2530, 0, 0
+  {
+   COORD (600,680)
+  }
+  VTX  2531, 0, 0
+  {
+   COORD (480,680)
+  }
+  VTX  2532, 0, 0
+  {
+   COORD (760,720)
+  }
+  VTX  2533, 0, 0
+  {
+   COORD (440,720)
+  }
+  VTX  2534, 0, 0
+  {
+   COORD (760,820)
+  }
+  VTX  2535, 0, 0
+  {
+   COORD (720,820)
+  }
+  VTX  2536, 0, 0
+  {
+   COORD (760,780)
+  }
+  VTX  2537, 0, 0
+  {
+   COORD (560,780)
+  }
+  VTX  2538, 0, 0
+  {
+   COORD (600,820)
+  }
+  VTX  2539, 0, 0
+  {
+   COORD (520,820)
+  }
+  VTX  2540, 0, 0
+  {
+   COORD (760,860)
+  }
+  VTX  2541, 0, 0
+  {
+   COORD (480,860)
+  }
+  VTX  2542, 0, 0
+  {
+   COORD (760,900)
+  }
+  VTX  2543, 0, 0
+  {
+   COORD (440,900)
+  }
+  VTX  2544, 0, 0
+  {
+   COORD (920,300)
+  }
+  VTX  2545, 0, 0
+  {
+   COORD (980,500)
+  }
+  VTX  2546, 0, 0
+  {
+   COORD (920,480)
+  }
+  VTX  2547, 0, 0
+  {
+   COORD (980,540)
+  }
+  VTX  2548, 0, 0
+  {
+   COORD (920,660)
+  }
+  VTX  2549, 0, 0
+  {
+   COORD (980,580)
+  }
+  VTX  2550, 0, 0
+  {
+   COORD (920,840)
+  }
+  VTX  2551, 0, 0
+  {
+   COORD (980,620)
+  }
+  VTX  2552, 0, 0
+  {
+   COORD (760,1040)
+  }
+  VTX  2553, 0, 0
+  {
+   COORD (720,1040)
+  }
+  VTX  2554, 0, 0
+  {
+   COORD (760,1120)
+  }
+  VTX  2555, 0, 0
+  {
+   COORD (720,1120)
+  }
+  VTX  2556, 0, 0
+  {
+   COORD (760,1300)
+  }
+  VTX  2557, 0, 0
+  {
+   COORD (720,1300)
+  }
+  VTX  2558, 0, 0
+  {
+   COORD (760,1180)
+  }
+  VTX  2559, 0, 0
+  {
+   COORD (720,1180)
+  }
+  VTX  2560, 0, 0
+  {
+   COORD (760,1440)
+  }
+  VTX  2561, 0, 0
+  {
+   COORD (720,1440)
+  }
+  VTX  2562, 0, 0
+  {
+   COORD (920,1060)
+  }
+  VTX  2563, 0, 0
+  {
+   COORD (980,1260)
+  }
+  VTX  2564, 0, 0
+  {
+   COORD (920,1240)
+  }
+  VTX  2565, 0, 0
+  {
+   COORD (980,1300)
+  }
+  VTX  2566, 0, 0
+  {
+   COORD (920,1420)
+  }
+  VTX  2567, 0, 0
+  {
+   COORD (980,1340)
+  }
+  VTX  2568, 0, 0
+  {
+   COORD (920,1600)
+  }
+  VTX  2569, 0, 0
+  {
+   COORD (980,1380)
+  }
+  VTX  2570, 0, 0
+  {
+   COORD (760,1000)
+  }
+  VTX  2571, 0, 0
+  {
+   COORD (560,1000)
+  }
+  VTX  2572, 0, 0
+  {
+   COORD (600,1040)
+  }
+  VTX  2573, 0, 0
+  {
+   COORD (520,1040)
+  }
+  VTX  2574, 0, 0
+  {
+   COORD (760,1080)
+  }
+  VTX  2575, 0, 0
+  {
+   COORD (480,1080)
+  }
+  VTX  2576, 0, 0
+  {
+   COORD (600,1120)
+  }
+  VTX  2577, 0, 0
+  {
+   COORD (440,1120)
+  }
+  VTX  2578, 0, 0
+  {
+   COORD (600,1180)
+  }
+  VTX  2579, 0, 0
+  {
+   COORD (560,1180)
+  }
+  VTX  2580, 0, 0
+  {
+   COORD (760,1220)
+  }
+  VTX  2581, 0, 0
+  {
+   COORD (520,1220)
+  }
+  VTX  2582, 0, 0
+  {
+   COORD (760,1260)
+  }
+  VTX  2583, 0, 0
+  {
+   COORD (480,1260)
+  }
+  VTX  2584, 0, 0
+  {
+   COORD (600,1300)
+  }
+  VTX  2585, 0, 0
+  {
+   COORD (440,1300)
+  }
+  VTX  2586, 0, 0
+  {
+   COORD (760,1360)
+  }
+  VTX  2587, 0, 0
+  {
+   COORD (560,1360)
+  }
+  VTX  2588, 0, 0
+  {
+   COORD (760,1400)
+  }
+  VTX  2589, 0, 0
+  {
+   COORD (520,1400)
+  }
+  VTX  2590, 0, 0
+  {
+   COORD (600,1440)
+  }
+  VTX  2591, 0, 0
+  {
+   COORD (480,1440)
+  }
+  VTX  2592, 0, 0
+  {
+   COORD (760,1480)
+  }
+  VTX  2593, 0, 0
+  {
+   COORD (440,1480)
+  }
+  VTX  2594, 0, 0
+  {
+   COORD (760,1540)
+  }
+  VTX  2595, 0, 0
+  {
+   COORD (720,1540)
+  }
+  VTX  2596, 0, 0
+  {
+   COORD (600,1540)
+  }
+  VTX  2597, 0, 0
+  {
+   COORD (560,1540)
+  }
+  VTX  2598, 0, 0
+  {
+   COORD (760,1580)
+  }
+  VTX  2599, 0, 0
+  {
+   COORD (520,1580)
+  }
+  VTX  2600, 0, 0
+  {
+   COORD (760,1620)
+  }
+  VTX  2601, 0, 0
+  {
+   COORD (480,1620)
+  }
+  VTX  2602, 0, 0
+  {
+   COORD (760,1660)
+  }
+  VTX  2603, 0, 0
+  {
+   COORD (440,1660)
+  }
+  VTX  2608, 0, 0
+  {
+   COORD (1180,560)
+  }
+  VTX  2609, 0, 0
+  {
+   COORD (1140,560)
+  }
+  VTX  2616, 0, 0
+  {
+   COORD (560,60)
+  }
+  WIRE  2617, 0, 0
+  {
+   NET 2850
+   VTX 2492, 2616
+  }
+  WIRE  2618, 0, 0
+  {
+   NET 2850
+   VTX 2616, 2493
+  }
+  VTX  2619, 0, 0
+  {
+   COORD (520,100)
+  }
+  WIRE  2620, 0, 0
+  {
+   NET 2857
+   VTX 2494, 2619
+  }
+  WIRE  2621, 0, 0
+  {
+   NET 2857
+   VTX 2619, 2495
+  }
+  VTX  2622, 0, 0
+  {
+   COORD (480,140)
+  }
+  WIRE  2623, 0, 0
+  {
+   NET 2864
+   VTX 2496, 2622
+  }
+  WIRE  2624, 0, 0
+  {
+   NET 2864
+   VTX 2622, 2497
+  }
+  VTX  2625, 0, 0
+  {
+   COORD (440,180)
+  }
+  WIRE  2626, 0, 0
+  {
+   NET 2871
+   VTX 2498, 2625
+  }
+  WIRE  2627, 0, 0
+  {
+   NET 2871
+   VTX 2625, 2499
+  }
+  WIRE  2628, 0, 0
+  {
+   NET 2850
+   VTX 2500, 2493
+  }
+  WIRE  2629, 0, 0
+  {
+   NET 90
+   VTX 2501, 2502
+  }
+  WIRE  2630, 0, 0
+  {
+   NET 2857
+   VTX 2503, 2495
+  }
+  WIRE  2631, 0, 0
+  {
+   NET 2864
+   VTX 2504, 2497
+  }
+  WIRE  2632, 0, 0
+  {
+   NET 2871
+   VTX 2505, 2499
+  }
+  WIRE  2633, 0, 0
+  {
+   NET 116
+   VTX 2506, 2507
+  }
+  WIRE  2634, 0, 0
+  {
+   NET 124
+   VTX 2508, 2509
+  }
+  WIRE  2635, 0, 0
+  {
+   NET 138
+   VTX 2510, 2511
+  }
+  WIRE  2636, 0, 0
+  {
+   NET 142
+   VTX 2512, 2513
+  }
+  WIRE  2637, 0, 0
+  {
+   NET 156
+   VTX 2514, 2515
+  }
+  WIRE  2638, 0, 0
+  {
+   NET 2850
+   VTX 2516, 2517
+  }
+  WIRE  2639, 0, 0
+  {
+   NET 2850
+   VTX 2493, 2517
+  }
+  WIRE  2640, 0, 0
+  {
+   NET 2857
+   VTX 2518, 2519
+  }
+  WIRE  2641, 0, 0
+  {
+   NET 2857
+   VTX 2495, 2519
+  }
+  WIRE  2642, 0, 0
+  {
+   NET 2864
+   VTX 2520, 2521
+  }
+  WIRE  2643, 0, 0
+  {
+   NET 2864
+   VTX 2497, 2521
+  }
+  WIRE  2644, 0, 0
+  {
+   NET 2871
+   VTX 2522, 2523
+  }
+  WIRE  2645, 0, 0
+  {
+   NET 2871
+   VTX 2499, 2523
+  }
+  WIRE  2646, 0, 0
+  {
+   NET 199
+   VTX 2524, 2525
+  }
+  WIRE  2647, 0, 0
+  {
+   NET 2850
+   VTX 2526, 2527
+  }
+  WIRE  2648, 0, 0
+  {
+   NET 2850
+   VTX 2517, 2527
+  }
+  WIRE  2649, 0, 0
+  {
+   NET 2857
+   VTX 2528, 2529
+  }
+  WIRE  2650, 0, 0
+  {
+   NET 2857
+   VTX 2519, 2529
+  }
+  WIRE  2651, 0, 0
+  {
+   NET 2864
+   VTX 2530, 2531
+  }
+  WIRE  2652, 0, 0
+  {
+   NET 2864
+   VTX 2521, 2531
+  }
+  WIRE  2653, 0, 0
+  {
+   NET 2871
+   VTX 2532, 2533
+  }
+  WIRE  2654, 0, 0
+  {
+   NET 2871
+   VTX 2523, 2533
+  }
+  WIRE  2655, 0, 0
+  {
+   NET 249
+   VTX 2534, 2535
+  }
+  WIRE  2656, 0, 0
+  {
+   NET 2850
+   VTX 2536, 2537
+  }
+  WIRE  2657, 0, 0
+  {
+   NET 2850
+   VTX 2527, 2537
+  }
+  WIRE  2658, 0, 0
+  {
+   NET 2857
+   VTX 2538, 2539
+  }
+  WIRE  2659, 0, 0
+  {
+   NET 2857
+   VTX 2529, 2539
+  }
+  WIRE  2660, 0, 0
+  {
+   NET 2864
+   VTX 2540, 2541
+  }
+  WIRE  2661, 0, 0
+  {
+   NET 2864
+   VTX 2531, 2541
+  }
+  WIRE  2662, 0, 0
+  {
+   NET 2871
+   VTX 2542, 2543
+  }
+  WIRE  2663, 0, 0
+  {
+   NET 2871
+   VTX 2533, 2543
+  }
+  VTX  2664, 0, 0
+  {
+   COORD (960,300)
+  }
+  WIRE  2665, 0, 0
+  {
+   NET 298
+   VTX 2544, 2664
+  }
+  VTX  2666, 0, 0
+  {
+   COORD (960,500)
+  }
+  WIRE  2667, 0, 0
+  {
+   NET 298
+   VTX 2664, 2666
+  }
+  WIRE  2668, 0, 0
+  {
+   NET 298
+   VTX 2666, 2545
+  }
+  VTX  2669, 0, 0
+  {
+   COORD (940,480)
+  }
+  WIRE  2670, 0, 0
+  {
+   NET 307
+   VTX 2546, 2669
+  }
+  VTX  2671, 0, 0
+  {
+   COORD (940,540)
+  }
+  WIRE  2672, 0, 0
+  {
+   NET 307
+   VTX 2669, 2671
+  }
+  WIRE  2673, 0, 0
+  {
+   NET 307
+   VTX 2671, 2547
+  }
+  VTX  2674, 0, 0
+  {
+   COORD (940,660)
+  }
+  WIRE  2675, 0, 0
+  {
+   NET 316
+   VTX 2548, 2674
+  }
+  VTX  2676, 0, 0
+  {
+   COORD (940,580)
+  }
+  WIRE  2677, 0, 0
+  {
+   NET 316
+   VTX 2674, 2676
+  }
+  WIRE  2678, 0, 0
+  {
+   NET 316
+   VTX 2676, 2549
+  }
+  VTX  2679, 0, 0
+  {
+   COORD (960,840)
+  }
+  WIRE  2680, 0, 0
+  {
+   NET 332
+   VTX 2550, 2679
+  }
+  VTX  2681, 0, 0
+  {
+   COORD (960,620)
+  }
+  WIRE  2682, 0, 0
+  {
+   NET 332
+   VTX 2679, 2681
+  }
+  WIRE  2683, 0, 0
+  {
+   NET 332
+   VTX 2681, 2551
+  }
+  WIRE  2684, 0, 0
+  {
+   NET 346
+   VTX 2552, 2553
+  }
+  WIRE  2685, 0, 0
+  {
+   NET 350
+   VTX 2554, 2555
+  }
+  WIRE  2686, 0, 0
+  {
+   NET 364
+   VTX 2556, 2557
+  }
+  WIRE  2687, 0, 0
+  {
+   NET 367
+   VTX 2558, 2559
+  }
+  WIRE  2688, 0, 0
+  {
+   NET 373
+   VTX 2560, 2561
+  }
+  VTX  2689, 0, 0
+  {
+   COORD (960,1060)
+  }
+  WIRE  2690, 0, 0
+  {
+   NET 388
+   VTX 2562, 2689
+  }
+  VTX  2691, 0, 0
+  {
+   COORD (960,1260)
+  }
+  WIRE  2692, 0, 0
+  {
+   NET 388
+   VTX 2689, 2691
+  }
+  WIRE  2693, 0, 0
+  {
+   NET 388
+   VTX 2691, 2563
+  }
+  VTX  2694, 0, 0
+  {
+   COORD (940,1240)
+  }
+  WIRE  2695, 0, 0
+  {
+   NET 394
+   VTX 2564, 2694
+  }
+  VTX  2696, 0, 0
+  {
+   COORD (940,1300)
+  }
+  WIRE  2697, 0, 0
+  {
+   NET 394
+   VTX 2694, 2696
+  }
+  WIRE  2698, 0, 0
+  {
+   NET 394
+   VTX 2696, 2565
+  }
+  VTX  2699, 0, 0
+  {
+   COORD (940,1420)
+  }
+  WIRE  2700, 0, 0
+  {
+   NET 399
+   VTX 2566, 2699
+  }
+  VTX  2701, 0, 0
+  {
+   COORD (940,1340)
+  }
+  WIRE  2702, 0, 0
+  {
+   NET 399
+   VTX 2699, 2701
+  }
+  WIRE  2703, 0, 0
+  {
+   NET 399
+   VTX 2701, 2567
+  }
+  VTX  2704, 0, 0
+  {
+   COORD (960,1600)
+  }
+  WIRE  2705, 0, 0
+  {
+   NET 406
+   VTX 2568, 2704
+  }
+  VTX  2706, 0, 0
+  {
+   COORD (960,1380)
+  }
+  WIRE  2707, 0, 0
+  {
+   NET 406
+   VTX 2704, 2706
+  }
+  WIRE  2708, 0, 0
+  {
+   NET 406
+   VTX 2706, 2569
+  }
+  WIRE  2709, 0, 0
+  {
+   NET 2850
+   VTX 2570, 2571
+  }
+  WIRE  2710, 0, 0
+  {
+   NET 2850
+   VTX 2537, 2571
+  }
+  WIRE  2711, 0, 0
+  {
+   NET 2857
+   VTX 2572, 2573
+  }
+  WIRE  2712, 0, 0
+  {
+   NET 2857
+   VTX 2539, 2573
+  }
+  WIRE  2713, 0, 0
+  {
+   NET 2864
+   VTX 2574, 2575
+  }
+  WIRE  2714, 0, 0
+  {
+   NET 2864
+   VTX 2541, 2575
+  }
+  WIRE  2715, 0, 0
+  {
+   NET 2871
+   VTX 2576, 2577
+  }
+  WIRE  2716, 0, 0
+  {
+   NET 2871
+   VTX 2543, 2577
+  }
+  WIRE  2717, 0, 0
+  {
+   NET 2850
+   VTX 2578, 2579
+  }
+  WIRE  2718, 0, 0
+  {
+   NET 2850
+   VTX 2571, 2579
+  }
+  WIRE  2719, 0, 0
+  {
+   NET 2857
+   VTX 2580, 2581
+  }
+  WIRE  2720, 0, 0
+  {
+   NET 2857
+   VTX 2573, 2581
+  }
+  WIRE  2721, 0, 0
+  {
+   NET 2864
+   VTX 2582, 2583
+  }
+  WIRE  2722, 0, 0
+  {
+   NET 2864
+   VTX 2575, 2583
+  }
+  WIRE  2723, 0, 0
+  {
+   NET 2871
+   VTX 2584, 2585
+  }
+  WIRE  2724, 0, 0
+  {
+   NET 2871
+   VTX 2577, 2585
+  }
+  WIRE  2725, 0, 0
+  {
+   NET 2850
+   VTX 2586, 2587
+  }
+  WIRE  2726, 0, 0
+  {
+   NET 2850
+   VTX 2579, 2587
+  }
+  WIRE  2727, 0, 0
+  {
+   NET 2857
+   VTX 2588, 2589
+  }
+  WIRE  2728, 0, 0
+  {
+   NET 2857
+   VTX 2581, 2589
+  }
+  WIRE  2729, 0, 0
+  {
+   NET 2864
+   VTX 2590, 2591
+  }
+  WIRE  2730, 0, 0
+  {
+   NET 2864
+   VTX 2583, 2591
+  }
+  WIRE  2731, 0, 0
+  {
+   NET 2871
+   VTX 2592, 2593
+  }
+  WIRE  2732, 0, 0
+  {
+   NET 2871
+   VTX 2585, 2593
+  }
+  WIRE  2733, 0, 0
+  {
+   NET 557
+   VTX 2594, 2595
+  }
+  WIRE  2734, 0, 0
+  {
+   NET 2850
+   VTX 2596, 2597
+  }
+  WIRE  2735, 0, 0
+  {
+   NET 2850
+   VTX 2587, 2597
+  }
+  WIRE  2736, 0, 0
+  {
+   NET 2857
+   VTX 2598, 2599
+  }
+  WIRE  2737, 0, 0
+  {
+   NET 2857
+   VTX 2589, 2599
+  }
+  WIRE  2738, 0, 0
+  {
+   NET 2864
+   VTX 2600, 2601
+  }
+  WIRE  2739, 0, 0
+  {
+   NET 2864
+   VTX 2591, 2601
+  }
+  WIRE  2740, 0, 0
+  {
+   NET 2871
+   VTX 2602, 2603
+  }
+  WIRE  2741, 0, 0
+  {
+   NET 2871
+   VTX 2593, 2603
+  }
+  WIRE  2752, 0, 0
+  {
+   NET 2388
+   VTX 2608, 2609
+  }
+  INSTANCE  2804, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and4"
+    #LIBRARY="#builtin"
+    #REFERENCE="U112"
+    #SYMBOL="and4"
+   }
+   COORD (760,1780)
+   VERTEXES ( (8,2834), (10,2839), (6,2858), (2,2865), (4,2941) )
+  }
+  VTX  2805, 0, 0
+  {
+   COORD (760,2200)
+  }
+  VTX  2808, 0, 0
+  {
+   COORD (760,2160)
+  }
+  VTX  2809, 0, 0
+  {
+   COORD (760,2120)
+  }
+  VTX  2810, 0, 0
+  {
+   COORD (760,2080)
+  }
+  WIRE  2811, 0, 0
+  {
+   NET 2871
+   VTX 608, 2805
+  }
+  WIRE  2817, 0, 0
+  {
+   NET 2864
+   VTX 601, 2808
+  }
+  WIRE  2818, 0, 0
+  {
+   NET 2857
+   VTX 594, 2809
+  }
+  WIRE  2819, 0, 0
+  {
+   NET 2850
+   VTX 587, 2810
+  }
+  INSTANCE  2832, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U113"
+    #SYMBOL="inv"
+   }
+   COORD (620,1780)
+   VERTEXES ( (4,2840), (2,2844) )
+  }
+  INSTANCE  2833, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U114"
+    #SYMBOL="inv"
+   }
+   COORD (620,1820)
+   VERTEXES ( (4,2835), (2,2851) )
+  }
+  VTX  2834, 0, 0
+  {
+   COORD (760,1840)
+  }
+  VTX  2835, 0, 0
+  {
+   COORD (740,1840)
+  }
+  WIRE  2837, 0, 0
+  {
+   NET 2838
+   VTX 2834, 2835
+  }
+  NET WIRE  2838, 0, 0
+  VTX  2839, 0, 0
+  {
+   COORD (760,1800)
+  }
+  VTX  2840, 0, 0
+  {
+   COORD (740,1800)
+  }
+  WIRE  2842, 0, 0
+  {
+   NET 2843
+   VTX 2839, 2840
+  }
+  NET WIRE  2843, 0, 0
+  VTX  2844, 0, 0
+  {
+   COORD (620,1800)
+  }
+  VTX  2845, 0, 0
+  {
+   COORD (560,1800)
+  }
+  WIRE  2847, 0, 0
+  {
+   NET 2850
+   VTX 2844, 2845
+  }
+  WIRE  2848, 0, 0
+  {
+   NET 2850
+   VTX 2597, 2845
+  }
+  WIRE  2849, 0, 0
+  {
+   NET 2850
+   VTX 2845, 587
+  }
+  NET WIRE  2850, 0, 0
+  VTX  2851, 0, 0
+  {
+   COORD (620,1840)
+  }
+  VTX  2852, 0, 0
+  {
+   COORD (520,1840)
+  }
+  WIRE  2854, 0, 0
+  {
+   NET 2857
+   VTX 2851, 2852
+  }
+  WIRE  2855, 0, 0
+  {
+   NET 2857
+   VTX 2599, 2852
+  }
+  WIRE  2856, 0, 0
+  {
+   NET 2857
+   VTX 2852, 594
+  }
+  NET WIRE  2857, 0, 0
+  VTX  2858, 0, 0
+  {
+   COORD (760,1880)
+  }
+  VTX  2859, 0, 0
+  {
+   COORD (480,1880)
+  }
+  WIRE  2861, 0, 0
+  {
+   NET 2864
+   VTX 2858, 2859
+  }
+  WIRE  2862, 0, 0
+  {
+   NET 2864
+   VTX 2601, 2859
+  }
+  WIRE  2863, 0, 0
+  {
+   NET 2864
+   VTX 2859, 601
+  }
+  NET WIRE  2864, 0, 0
+  VTX  2865, 0, 0
+  {
+   COORD (760,1920)
+  }
+  VTX  2866, 0, 0
+  {
+   COORD (440,1920)
+  }
+  WIRE  2868, 0, 0
+  {
+   NET 2871
+   VTX 2865, 2866
+  }
+  WIRE  2869, 0, 0
+  {
+   NET 2871
+   VTX 2603, 2866
+  }
+  WIRE  2870, 0, 0
+  {
+   NET 2871
+   VTX 2866, 608
+  }
+  NET WIRE  2871, 0, 0
+  INSTANCE  2872, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="or2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U115"
+    #SYMBOL="or2"
+   }
+   COORD (960,1920)
+   VERTEXES ( (4,2935), (6,2942), (2,2951) )
+  }
+  VTX  2901, 0, 0
+  {
+   COORD (1540,1500)
+  }
+  VTX  2902, 0, 0
+  {
+   COORD (1520,1500)
+  }
+  VTX  2905, 0, 0
+  {
+   COORD (1140,1320)
+  }
+  VTX  2906, 0, 0
+  {
+   COORD (1360,1480)
+  }
+  WIRE  2907, 0, 0
+  {
+   NET 2393
+   VTX 2901, 2902
+  }
+  VTX  2915, 0, 0
+  {
+   COORD (1180,1320)
+  }
+  WIRE  2916, 0, 0
+  {
+   NET 623
+   VTX 2905, 2915
+  }
+  VTX  2917, 0, 0
+  {
+   COORD (1180,1480)
+  }
+  WIRE  2918, 0, 0
+  {
+   NET 623
+   VTX 2915, 2917
+  }
+  WIRE  2919, 0, 0
+  {
+   NET 623
+   VTX 2917, 2906
+  }
+  VTX  2934, 0, 0
+  {
+   COORD (1360,1520)
+  }
+  VTX  2935, 0, 0
+  {
+   COORD (1120,1960)
+  }
+  VTX  2936, 0, 0
+  {
+   COORD (1160,1520)
+  }
+  WIRE  2937, 0, 0
+  {
+   NET 632
+   VTX 2934, 2936
+  }
+  VTX  2938, 0, 0
+  {
+   COORD (1160,1960)
+  }
+  WIRE  2939, 0, 0
+  {
+   NET 632
+   VTX 2936, 2938
+  }
+  WIRE  2940, 0, 0
+  {
+   NET 632
+   VTX 2938, 2935
+  }
+  VTX  2941, 0, 0
+  {
+   COORD (920,1860)
+  }
+  VTX  2942, 0, 0
+  {
+   COORD (960,1940)
+  }
+  VTX  2944, 0, 0
+  {
+   COORD (940,1860)
+  }
+  WIRE  2945, 0, 0
+  {
+   NET 2949
+   VTX 2941, 2944
+  }
+  VTX  2946, 0, 0
+  {
+   COORD (940,1940)
+  }
+  WIRE  2947, 0, 0
+  {
+   NET 2949
+   VTX 2944, 2946
+  }
+  WIRE  2948, 0, 0
+  {
+   NET 2949
+   VTX 2946, 2942
+  }
+  NET WIRE  2949, 0, 0
+  VTX  2950, 0, 0
+  {
+   COORD (920,2140)
+  }
+  VTX  2951, 0, 0
+  {
+   COORD (960,1980)
+  }
+  VTX  2953, 0, 0
+  {
+   COORD (940,2140)
+  }
+  WIRE  2954, 0, 0
+  {
+   NET 2958
+   VTX 2950, 2953
+  }
+  VTX  2955, 0, 0
+  {
+   COORD (940,1980)
+  }
+  WIRE  2956, 0, 0
+  {
+   NET 2958
+   VTX 2953, 2955
+  }
+  WIRE  2957, 0, 0
+  {
+   NET 2958
+   VTX 2955, 2951
+  }
+  NET WIRE  2958, 0, 0
+ }
+ 
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (4400,7400)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+  VARIABLES
+  {
+   #BLOCKTABLE_PAGE="1"
+   #BLOCKTABLE_TEMPL="1"
+   #BLOCKTABLE_VISIBLE="0"
+   #MODIFIED="1318294910"
+   PAGENAME=""
+   PAGENUMBER="1"
+   REVISION="1.0"
+  }
+ }
+ 
+ BODY
+ {
+  TEXT  2993, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,1, (0,0,0)
+   TEXT "Created:"
+   RECT (3340,6966,3457,7019)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  2994, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "$CREATIONDATE"
+   RECT (3514,6962,4184,7022)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,128,0,"Arial")
+   UPDATE 0
+  }
+  TEXT  2995, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "Title:"
+   RECT (3338,7026,3409,7079)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  2996, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,1, (0,0,0)
+   TEXT "$TITLE"
+   RECT (3511,7022,4181,7082)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,128,0,"Arial")
+   UPDATE 0
+  }
+  TEXT  2997, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT 
+"(C)ALDEC. Inc\n"+
+"2260 Corporate Circle\n"+
+"Henderson, NV 89074"
+   RECT (3540,6840,3835,6941)
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+   MULTILINE
+  }
+  TEXT  2998, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "Page:"
+   RECT (3338,7144,3417,7197)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  2999, 0, 0
+  {
+   PAGEALIGN 10
+   OUTLINE 5,1, (0,0,0)
+   TEXT "$PAGENUMBER / $PAGECOUNT     $PAGENAME"
+   RECT (3510,7140,4180,7200)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,128,0,"Arial")
+   UPDATE 0
+  }
+  TEXT  3000, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "Revision:"
+   RECT (3336,7084,3464,7137)
+   ALIGN 4
+   MARGINS (1,10)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,0,0,"Arial")
+  }
+  TEXT  3001, 0, 0
+  {
+   PAGEALIGN 10
+   TEXT "$Revision"
+   RECT (3510,7094,4170,7129)
+   ALIGN 4
+   MARGINS (1,1)
+   COLOR (0,0,0)
+   FONT (12,0,0,700,0,204,0,"Arial")
+   UPDATE 0
+  }
+  BMPPICT  3002, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3340,6840,3460,6940)
+   TEXT
+   "KAAAADAAAAAsAAAAAQAYAAAAAADCGAAAEgsAABILAAAAAAAAAAAAAP////////////////////////////////////////////////////////////////////////38+fXt1e3gtufWoN/Hfta2WNKxSdGvP9KwQdS0S9i6Wt7GderapfXu1v79+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////379+3guuHIi97BgeHFjeTLmuXNnuXMnOLIkt/ChNm5bdKtTcujLMWaEMKVAMedFNW3TuXTkvjy4P/////////////////////////////////////////////////////////////////////////////////////////////////////////////+/fHlxufSouzaufPo1ffu4vnz6fv27vv27/v27vr17Pnw5fXr2vDgx+jUrN/Ch9OvU8ieIMKWAcKVAMmhGd/Iefr26P////////////////////////////////////////////////////////////////////////////////////////////////z58u3eufXq2Pz38f78+v/////////////////////////////////////+/vz59fjw5PDgxubOoda0YsieH8KWAMKWAMymJevdrP////////////////////////////////////////////////////////////////////////////////////////z58/fu3/36+f/////////////////////////////////////////////+/fz48v////////n06fXq2PLkzOLJltGrScSZC8KVAMOXAd7GdP79+/////////////////////////////////////////////////////////////////////////////379/z48f///v////////////////////////////////79+vnz6Pjy5f38+P///vfv4fjv4v////7+/fjx4/z69fjw4+vXtNi3a8acGMKVAMOXANi7Wfz68/////////////////////////////////////////////////////////////////////79+/78+f///////////////////////////vv37/jv4f379/379vTo0/fu3vbs2v////37+Pjx5f///v////////////////v28PDhx97AgcmgI8KVAMOXANe5U/389////////////////////////////////////////////////////////////////v/+/v///////////////////vv48P/+/f78+vPo0ffx4/Tp1f////v37/fu3vv38P///////////////////////////////v////789/Pm0uDEjMuhJ8KVAMOXANq/Y//+/f///////////////////////////////////////////////////////////v/////////////////+/vfw4fXr2Pfu3v////fw4fTp1fjw4v////////////////////////////////78+v79/P////z69Pfv4v////78+fPn0d7ChcedG8KVAMOXAOXTkv/////////////////////////////////////////////////////////////////+/vnz6Pv37////vTp1Pnx5vTo1P/+/v////379/////////////////////////////////z59PTo0vXr2P78+f/+/vbt3fz38P////379/Hiytm6csWZDMKWAMeeEPTs0P////////////////////////////////////////////////////////////r06vbt3PXq1f79+/v38PXq2Pz48v////////////////////////////////n06Pv38P////v48vXq1vr16ffu3v////r17PXq2P////////z48+3bvdOvU8OWAcOXANS1Sv/+/f////////////////////////////////////////////7+/f369f////ny5/Xr2PXr2f38+f////////////////////////////v38Pz58/////////r16/To1P////////bv3/Tq1PTq1v////79+/z69f////////////ry5+XMnsqhKMKVAMOYAu3gs/////////////////////////////////////////////79+/bt3P79+//9/Pbu3vv48f////////////////////////////r16/Ln0PPmzvv48f////////Po0vn06v/////+/vnz5/z59P/////////////////////////+/PPm0Nq6b8SYB8OWANS0R//+/f////////////////////////////////79+/v38P////bt3Pz58v////////////////////////79+/fv3/v37/////jw4vbu3vv37/Tq1f////////bs2/nz5/////////////////////////////////////////////z28OnUrs2lMsKVAMSZBPLoxv////////////////////////////////z48vbs2v38+fv27v78+f////////////////////////Xs2/Tq1/Pmzv38+f78+vPmz/Xr1/Tp1P///v////////////////////////////////////////38+vr17P/////////+/fTn1Nm4asOWA8OXAN/Hdf////////////////////////////////z58/jx4/////////////////////////fw4f359P////bu3vz48/ny5vrz6f////77+Pbu3v379/////////////////////////////////79/P79+v////r16/Tp1P359P////////r17OXMnMeeHMKVAM+rMv379v////r37vr37v/////////////////+/fXu3fj06Pj06fj06fj06fj06fLmzvDixu/hxP38+vbu3u7fwO/gxPTq1/j06fj16v////////jz6Pf05/j06Pj06Pj06Pj06Pfz5v37+Pjx4/Pmz/fw4vTs2fPo0/Po0vjz5/v58//+/u7dwM+rQ8KVAMacDfTs0P///9S3b72SJN7Jm////////////+zhxbiKJbaGF7iKHbeIGrWFFLWFFLSCDraFFLSDFNe+gb6TNrSDEbOBCrWFFLWEErWEGM+vavHo0LuNI7aHGbWFErWEErWFErWFFLF+D8+vZ+vcusCVN7aFFLWFE7WDELWEEbOBEL6TM/jz5/bs3dm3aMOVAsOWAOjXnf///+7jx7OBArWFFvv48v79/P///8OcQat1AMSfRa99ALKBCLqMJLuOJrqOJ7mMIrmMJb6UL7KABrJ/BLqOJrqNJ7uOJ7F9Bqx3ANe9fbWFD7F/BryQLLyRLLyQLLqNJLqNKL+WOL6ULax2ALJ/BrqOJ7qOJrqNJbqNJbWGId7Jl/z38+DEicWZDsKWAOHLf////////9a7d7KBAMWfS9i/g9Gya6t1AMWfRODKmat1AMmmUvfu3vr27fr37/n16/r37uzgw7F9B72RKPj06fr38Pr38Ni+gKp0AM2tXrWFD7+VLvbw4vfy5ffy5PLmzvjw4vn27cGYNq14AOLOn/r37/r37/r27vr27vn16/r27fz38+bOocieHcKVANvAZP////////r27byRIrF/AL+VMLF+Bq57Au3fwufVr6lyAMuoVfr06v////////////////Lq1rB9CL2RKv///v///////+PSpat1AM2sXbiJFbKABbuQK7yRMLyQLreIJuLNn////8OcP698AvXu3v////////////////////////779+rWr8uhKcKVANe6V////////////+PRorJ/ALqNHK97A8yrXv///+DJl6lyAMqoVv////////////////////Ho0rB9CL2SKv////z48vnv4t3Eiqt1AM6uX7iJFbSEDr+WM8GYOcGYO76UO+bVrf///8ObPK98AvXv4P////////////////////////78+ezauM2lM8KVANe6Vv////////////7+/MikSa98ALSEE/Ps2f///+HMnqlxAMqoVv////////////////////Hn0LB9CLuPI/Tt2ezcu/Ln0dCwZKt0AM6uYbaGEb2TKO3cvPPr2fTs2vPr1vv58////8OdP613AN/Jl/Xv3/Xv3/Pr1+7fwP369f/////9+u3bvM2mOMKVANi8Wv///////////////+/lzK97C9i/hf///////+LQpqVrAMekTv///////////////////+rZta56AK15ALB9BLB8ArB8A614AK14ANi+gLSDCq54ALF9BLF/CbF+CKx3BeHNnv///9CybahvAK13ALF+B7B+B6x2AcKZPP379v////79+u3aus2lNcKVANzDbP///////////////////9zGk/n27f///////+nbu7uQPNa8ff////78+fr16v///////+ratsKcQ8CWNcCXN8KaPL+WNL6TM9e9gfPr1sSfRMGaPcGaO8GZOsGZOr2TOOfXsv////bx5c6uZsGYOsCWNMCWNL2TOMypWvz48f////77+OvWscuiK8KVAOHLgP////////////////////r37//////////////+/fz58fv27/////79+/To0/37+P////fw4ffv3vTp1Pr27f79+/379v369P////////79+v79+v79+v79+v79+v79+P/+/f369v359P////z48ffw4Pny5vz58fr16v369f////z48ufPosmeHsKVAOnZof////////////////////////////////////////ny5vTp1Pv48f////jw4/jx5P////7+/Pbt3Pbt3P///v////////////////////////////////////////////////z58/To0v////////bs2fTq1/37+P////////////rz6eHFjMWaEcadEfXu1v////////////////////////////////////////nz6fjy5Pfv4P////r06fPo1P////////////////////////////////////////////////////v27/r06v////////////Xr1/z48P////v38Pnz5/////////////////br3Nq6cMOWA8+tN/38+P////////////////////////////////////////37+PTp1fXs2v////79+/38+f////////////////////////////////////379/78+f////////v38PPn0P/+/v////////Xr2Pfv4f////////////////////38+P79+u/gxdKsSsKVAODKff////////////////////////////////////////////////369v38+P////////////////////////////////////////////v48fLmzfPmz/369v////////Pp1fr17f////////v37/37+P////////////////////v27fnz6OfPo8qfIsSZCfTrz/////////////////////////////////////////////////////////////////////////////////////z69PXs2vr27v////jw4/fu3vnz5/Xr2f////////Tq1ffw4f////////////////////////////nz5/38+Pz58vLl0Ny9d8OXBta3T/7+/P/////////////////////////////////////////////////////////////////////+/fz58v////////Xr2Pbt3fTo0v369f379vPmz/jy5fPn0f///v////369v7+/P////////////////////////v38PTp1fn06fz38OnVsc+oPsOVA+/kvf////////////////////////////////////////////////////////////n06fjz6P/////+/vXr1vz48f////nz5/fu3vjw4/ft3P////r17PPo0vv27f////////////////////////////79+vfv4P78+fr27ffu3vrz6Pbs292+fcWZDNi7Wv/////////////////////////////////////////////////////////////+/vXr2PXs2fr16/////v37/Xr2P7+/v/+/vbt3fPm0Pn06f////////////////////////////////////////////fv4PXr2Pfv3v79/Pbs2vny5erUr86nOcefFffy3v////////////////////////////////////////////////////////////////r27ffv4PXp1P/9/P79+/Tp1P379v////////38+f////////////////////////////////379/Xr2Pjx4/////bt3Pjw4vfu3f////79+vLjzNi2Z8OYCOnZov////////////////////////////////////////////////////////////////////////n16vfw4f/+/f////7+/f///v/////////////////////////////+/vr16/z59P////bu3ffv3/Xq1vz69fz69fXq2P369f7+/vbr2uDDisidGd/HeP/////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/fv37v379v////jw4/Xq1/Tq1f379/v37/Xp1fbs2vz69v////////////jv4uXNn8ykL9q/Zv79+//////////////////////////////////////////////////////////////////////////////////////+/v37+P/+/v////z58/z69f////r06fTp0/Xs2fz69Pv27vXt3PXr2Pr17P////v48f369f/////////+/vjw5OfRp9CpQdzCbP79+/////////////////////////////////////////////////////////////////////////////////////////z69vTq1fjw4v379/369vXr2Pz69v78+fjw4fXs2/jz5/////v48Pv37//+/v////////////////38+PXr2ubMn9GsR+PQjP///////////////////////////////////////////////////////////////////////////////////////////////////vv48ffw4vr06v////v48fz58//////+/f379////////////////////////////////vv27vHiyeDEiti5YPHmxP///////////////////////////////////////////////////////////////////////////////////////////////////////////////v////////////////////////////////////////////////////z58vXr1+jTq93BfefVnf379f////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7+/f769vnz6fPn0ezbuOjUqe7fuvv37f/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v/+/v79+/38+Pz58vv17Pnx5ffv4Pfv3/ny5vv38P///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA"
+  }
+  GROUP  3003, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3320,6820,4201,7201)
+   FREEID 1
+   LINE  594, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (880,380), (880,0), (0,0), (0,380), (880,380) )
+    FILL (1,(0,0,0),0)
+   }
+  }
+  GROUP  3004, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3320,7020,4201,7021)
+   FREEID 1
+   LINE  578, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (880,0) )
+    FILL (1,(0,0,0),0)
+   }
+  }
+  GROUP  3005, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3320,6960,4201,6961)
+   FREEID 1
+   LINE  577, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (880,0) )
+    FILL (1,(0,0,0),0)
+   }
+  }
+  GROUP  3006, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3320,7080,4201,7081)
+   FREEID 1
+   LINE  583, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (880,0) )
+    FILL (1,(0,0,0),0)
+   }
+  }
+  GROUP  3007, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3320,7140,4201,7141)
+   FREEID 1
+   LINE  582, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (880,0) )
+    FILL (1,(0,0,0),0)
+   }
+  }
+  GROUP  3008, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3500,6820,3501,6961)
+   FREEID 1
+   LINE  581, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (0,140) )
+   }
+  }
+  GROUP  3009, 0, 0
+  {
+   PAGEALIGN 10
+   RECT (3500,6960,3501,7201)
+   FREEID 1
+   LINE  579, 0, 0
+   {
+    OUTLINE 0,1, (128,128,128)
+    POINTS ( (0,0), (0,240) )
+   }
+  }
+ }
+ 
+}
+
